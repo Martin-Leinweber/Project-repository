@@ -10,4 +10,4 @@ Heute, in der ersten Informatikstunde, wurden wir informiert was in Zukunft in d
 Anschließend haben wir uns unsere Github Accounts eingerichtet und uns mit dieser Platform etwas vertraut zu machen. Zwischendurch haben wir uns schon einige Projektideen ausgedacht und diese besprochen.
 
 ### <a name="2"></a>Mittwoch, 04. August 2021
-Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funtionen von ... aus einander gesetzt. Außerdem haben wir weiter über Projektideen gegrübelt.
+Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funtionen von Markdown aus einander gesetzt. Außerdem haben wir weiter über Projektideen gegrübelt.
