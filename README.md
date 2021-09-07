@@ -41,7 +41,7 @@ Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funtionen vo
 
 
 ### <a name="7"></a>Dienstag, 24. August 2021
-Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. 
+Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. 
 
 
 ### <a name="8"></a>Mittwoch, 25. August 2021
