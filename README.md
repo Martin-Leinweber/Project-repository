@@ -20,6 +20,8 @@
 
 [6. Mittwoch, 01. September 2021](#10)
 
+[6. Dienstag, 07. September 2021](#11)
+
 
 ### <a name="1"></a>Dienstag, 03. August 2021
 Heute, in der ersten Informatikstunde, wurden wir informiert was in Zukunft in diesem Fach auf uns zu kommen wird, und wie das ganze Ablaufen wird.
@@ -29,6 +31,7 @@ Anschließend haben wir uns unsere Github Accounts eingerichtet und uns mit dies
 Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funtionen von Markdown aus einander gesetzt. Außerdem haben wir weiter über Projektideen gegrübelt.
 
 ### <a name="3"></a>Dienstag, 10. August 2021
+Heute haben wir uns auf eine Projektidee festgelegt. Unser Plan ist es ein 
 
 
 ### <a name="4"></a>Mittwoch, 11. August 2021
@@ -41,13 +44,15 @@ Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funtionen vo
 
 
 ### <a name="7"></a>Dienstag, 24. August 2021
-Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. 
+Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. die Analogsignale der beiden Achsenpotentiometer auslesen und auf bestimmten Pins ein entsprechende Analogsiganl ausgeben.
 
 
 ### <a name="8"></a>Mittwoch, 25. August 2021
+
 
 
 ### <a name="9"></a>Dienstag, 31. August 2021
 
 
 ### <a name="10"></a>Mittwoch, 01. September 2021
+### <a name="11"><a/>Dienstag, 07. September 2021
