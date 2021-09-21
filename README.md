@@ -35,6 +35,7 @@ Heute haben wir uns auf eine Projektidee festgelegt. Unser Plan ist es ein
 
 
 ### <a name="4"></a>Mittwoch, 11. August 2021
+Heute haben wir getestet, ob unseere Idee zur Treffererkennung des gegnerischen Flugzeuges mittels eines Fotowiderstandes und eines Laserpointers funktionieren könnte. Also haben wir mit dem Fotowiderstand und einem weiteren Widerstand einen Spannungsteiler aufgebaut und getestet ob bei direkten Beleuchten mit einem Laserpointer der Spannungsunterschied zum normalen Tageslicht groß genug ist um ihn eindeutig auszulesen.
 
 
 ### <a name="5"></a>Dienstag, 17. August 2021
@@ -56,3 +57,7 @@ Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick be
 
 ### <a name="10"></a>Mittwoch, 01. September 2021
 ### <a name="11"><a/>Dienstag, 07. September 2021
+  ### <a name="11"><a/>Dienstag, 14. September 2021
+  Entfall
+  ### <a name="11"><a/>Mittwoch, 15. September 2021
+  Entfall
