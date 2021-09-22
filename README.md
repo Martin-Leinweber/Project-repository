@@ -31,7 +31,7 @@ Anschließend haben wir uns unsere Github Accounts eingerichtet und uns mit dies
 Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funtionen von Markdown aus einander gesetzt. Außerdem haben wir weiter über Projektideen gegrübelt.
 
 ### <a name="3"></a>Dienstag, 10. August 2021
-Heute haben wir uns auf eine Projektidee festgelegt. Unser Plan ist es ein 
+Heute haben wir uns auf eine Projektidee festgelegt. Unser Plan ist es ein Arcade Spiel zu bauen, dessen Spielinhalt nicht auf einem Bildschirm, sondern mit echten Modellen dargestellt werden.
 
 
 ### <a name="4"></a>Mittwoch, 11. August 2021
@@ -49,15 +49,20 @@ Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick be
 
 
 ### <a name="8"></a>Mittwoch, 25. August 2021
-
+Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reperatur und anschließend mit der auslesung eines Tasters beschäftigt.
 
 
 ### <a name="9"></a>Dienstag, 31. August 2021
+Nach dem nun der Abzug des Joysticks benutzbat ist haben wir uns damit auseinander gesetzt, wie man mit einem Arduino Sounddateien abspielen kann. Hierzu haben wir einen kleinen 0,5W Lautsprecher benutzt.
 
 
 ### <a name="10"></a>Mittwoch, 01. September 2021
+
+
 ### <a name="11"><a/>Dienstag, 07. September 2021
-  ### <a name="11"><a/>Dienstag, 14. September 2021
+  
+  
+### <a name="11"><a/>Dienstag, 14. September 2021
   Entfall
-  ### <a name="11"><a/>Mittwoch, 15. September 2021
+### <a name="11"><a/>Mittwoch, 15. September 2021
   Entfall
