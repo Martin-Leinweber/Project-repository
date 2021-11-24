@@ -22,11 +22,49 @@
 
 [11. Dienstag, 07. September 2021](#11)
 
-[12. Mittwoch 08. September 2021] (#12)
+[12. Mittwoch, 08. September 2021](#12)
 
-[13. Dienstag 14. September 2021] (#13)
+[13. Dienstag, 14. September 2021](#13)
 
-[14. Mittwoch 15. September 2021] (#14)
+[14. Mittwoch, 15. September 2021](#14)
+
+[14. Mittwoch, 21. September 2021](#15)
+
+[14. Mittwoch, 22. September 2021](#16)
+
+[14. Mittwoch, 28. September 2021](#17)
+
+[14. Mittwoch, 29. September 2021](#18)
+
+[14. Mittwoch, 19. Oktober 2021](#19)
+
+[14. Mittwoch, 20. Oktober 2021](#20)
+
+[14. Mittwoch, 26. Oktober 2021](#21)
+
+[14. Mittwoch, 27. Oktober 2021](#22)
+
+[14. Mittwoch, 02. November 2021](#23)
+
+[14. Mittwoch, 03. November 2021](#24)
+
+[14. Mittwoch, 09. November 2021](#25)
+
+[14. Mittwoch, 10. November 2021](#26)
+
+[14. Mittwoch, 16. November 2021](#27)
+
+[14. Mittwoch, 17. November 2021](#28)
+
+[14. Mittwoch, 23. November 2021](#29)
+
+[14. Mittwoch, 24. November 2021](#30)
+
+
+
+
+
+
 
 ### <a name="1"></a>Dienstag, 03. August 2021
 Heute, in der ersten Informatikstunde, wurden wir informiert was in Zukunft in diesem Fach auf uns zu kommen wird, und wie das ganze Ablaufen wird.
