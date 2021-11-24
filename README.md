@@ -12,16 +12,21 @@
 
 [6. Mittwoch, 18. August 2021](#6)
 
-[5. Dienstag, 24. August 2021](#7)
+[7. Dienstag, 24. August 2021](#7)
 
-[6. Mittwoch, 25. August 2021](#8)
+[8. Mittwoch, 25. August 2021](#8)
 
-[5. Dienstag, 31. August 2021](#9)
+[9. Dienstag, 31. August 2021](#9)
 
-[6. Mittwoch, 01. September 2021](#10)
+[10. Mittwoch, 01. September 2021](#10)
 
-[6. Dienstag, 07. September 2021](#11)
+[11. Dienstag, 07. September 2021](#11)
 
+[12. Mittwoch 08. September 2021] (#12)
+
+[13. Dienstag 14. September 2021] (#13)
+
+[14. Mittwoch 15. September 2021] (#14)
 
 ### <a name="1"></a>Dienstag, 03. August 2021
 Heute, in der ersten Informatikstunde, wurden wir informiert was in Zukunft in diesem Fach auf uns zu kommen wird, und wie das ganze Ablaufen wird.
@@ -61,8 +66,10 @@ Nach dem nun der Abzug des Joysticks benutzbat ist haben wir uns damit auseinand
 
 ### <a name="11"><a/>Dienstag, 07. September 2021
   
+### <a name="12"><a/>Mittwoch, 08. September 2021
   
-### <a name="11"><a/>Dienstag, 14. September 2021
+  
+### <a name="13"><a/>Dienstag, 14. September 2021
   Entfall
-### <a name="11"><a/>Mittwoch, 15. September 2021
+### <a name="14"><a/>Mittwoch, 15. September 2021
   Entfall
