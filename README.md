@@ -85,6 +85,22 @@ Heute haben wir uns überlegt, wie man überprüfen kann, ob der Spieler das and
 ### <a name="6"></a>Mittwoch, 18. August 2021
 Heute haben wir getestet, ob unsere Idee zur Treffererkennung des gegnerischen Flugzeuges mittels eines Fotowiderstandes und eines Laserpointers funktionieren könnte. Also haben wir mit dem Fotowiderstand und einem weiteren Widerstand einen Spannungsteiler aufgebaut und getestet ob bei direkten Beleuchten mit einem Laserpointer der Spannungsunterschied zum normalen Tageslicht groß genug ist um ihn eindeutig auszulesen. Der Code sowie der Schaltkreis und ein Screenshot des Seriellen Monitors finden sich im Folgenden.
 ![Screenshot 2021-12-05 174717](https://user-images.githubusercontent.com/88385986/144761199-aa851cea-45b3-4096-9701-6276cc0a39f1.png)
+```c
+
+void setup() {
+
+  Serial.begin(9600);
+}
+
+
+void loop() {
+ 
+  int sensorValue = analogRead(A0);
+
+  Serial.println(sensorValue);
+  delay(1);        
+}
+```
 
 ### <a name="7"></a>Dienstag, 24. August 2021
 Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. die Analogsignale der beiden Achsenpotentiometer auslesen und auf bestimmten Pins ein entsprechende Analogsiganl ausgeben. Hierzu mussten wir zunächst mittels eines Multimeters und dessen Kontaktprüfungs Funktion ermitteln welche Pins des Sub-D Steckers zu welchen Kabeln im inneren gehören. Außerdem müssen wir eine zusätliche Leitung anbringen, da die zwei Achsenpotentiometer im Joystick nicht als Spannungsteiler, also mit allen 3 Kontakten, sondern nur mit 2 Kontakten als variablen Widerstand genutzt wurden. Das neue Kabel ist also der Ground für beide Potentiometer. Das neue Kabel wird mittels aufgekrimpter Flachstecker an die Potentiometer angeschlossen. Mit den genannten Arbeitsschritten sind wir in der heutigen Unterrichtseinheit leider nicht fertig geworden.
