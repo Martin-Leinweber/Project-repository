@@ -86,15 +86,16 @@ Heute haben wir uns überlegt, wie man überprüfen kann, ob der Spieler das and
 Heute haben wir getestet, ob unsere Idee zur Treffererkennung des gegnerischen Flugzeuges mittels eines Fotowiderstandes und eines Laserpointers funktionieren könnte. Also haben wir mit dem Fotowiderstand und einem weiteren Widerstand einen Spannungsteiler aufgebaut und getestet ob bei direkten Beleuchten mit einem Laserpointer der Spannungsunterschied zum normalen Tageslicht groß genug ist um ihn eindeutig auszulesen.
 
 ### <a name="7"></a>Dienstag, 24. August 2021
-Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. die Analogsignale der beiden Achsenpotentiometer auslesen und auf bestimmten Pins ein entsprechende Analogsiganl ausgeben. Hierzu mussten wir zunächst mittels eines Multimeters und dessen Kontaktprüfungs Funktion ermitteln welche Pins des Sub-D Steckers zu welchen Kabeln im inneren gehören. Außerdem mussten wir eine zusätliche Leitung verlöten, da die zwei Achsenpotentiometer im Joystick nicht als Spannungsteiler, also mit allen 3 Kontakten, sondern nur mit 2 Kontakten als variabeln Widerstand genutzt wurden. Die neu Verkabelung ist Im Schaublid zu sehen.
-![Screenshot 2021-12-05 175220](https://user-images.githubusercontent.com/88385986/144758447-55c91426-aac9-4c53-9be6-37864bfed54b.png)
+Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. die Analogsignale der beiden Achsenpotentiometer auslesen und auf bestimmten Pins ein entsprechende Analogsiganl ausgeben. Hierzu mussten wir zunächst mittels eines Multimeters und dessen Kontaktprüfungs Funktion ermitteln welche Pins des Sub-D Steckers zu welchen Kabeln im inneren gehören. Außerdem mussten wir eine zusätliche Leitung verlöten, da die zwei Achsenpotentiometer im Joystick nicht als Spannungsteiler, also mit allen 3 Kontakten, sondern nur mit 2 Kontakten als variablen Widerstand genutzt wurden. Das neue Kabel ist also der Ground für beide Potentiometer. Mit den genannten Arbeitsschritten sind wir leider nicht in der heutigen Unterrichtseinheit fertig geworden.
+
 
 
 ### <a name="8"></a>Mittwoch, 25. August 2021
-Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reperatur und anschließend mit der auslesung eines Tasters beschäftigt. 
-
+Heute haben wir die am Vortag genannten Arbeitsschritte beendigt. Die Verkabelung des Joysticks ist nun wie auf dem Schaublid zu sehen.
+![Screenshot 2021-12-05 175220](https://user-images.githubusercontent.com/88385986/144758447-55c91426-aac9-4c53-9be6-37864bfed54b.png)
 
 ### <a name="9"></a>Dienstag, 31. August 2021
+Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reperatur und anschließend mit der auslesung eines Tasters beschäftigt. 
 
 
 
