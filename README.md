@@ -48,7 +48,7 @@
 
 [24. Mittwoch, 03. November 2021](#24)
 
-[25. Dienstag, 09. November 2021](#25)
+[25. Dienstag, 09. November 2021](#25) entfall
 
 [26. Mittwoch, 10. November 2021](#26)
 
@@ -60,9 +60,11 @@
 
 [30. Mittwoch, 24. November 2021](#30)
 
-[31. Dienstag, 30. November 2021](#31)
+[30. Mittwoch, 30. November 2021](#31)
 
-[32. Dienstag, 01. Dezember 2021](#32)
+[30. Mittwoch, 01. Dezember 2021](#32)
+
+
 
 
 
@@ -129,3 +131,5 @@ Nach dem nun der Abzug des Joysticks benutzbat ist haben wir uns damit auseinand
  ### <a name="20"></a>Dienstag, 21. September 2021
  
  ### <a name="21"></a>Dienstag, 21. September 2021
+ 
+
