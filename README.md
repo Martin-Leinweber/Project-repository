@@ -186,10 +186,10 @@ Heute haben wir nach einiger recherche nach Bauteilen aus Kostengründen besschl
 Entschieden haben wir uns aber in der Frage nach der Kraftübertragung vom Motor an den Schlitten. Wir haben uns auch hier für die günstigste Variante entschieden. An dem Motor wird ein Zahnrad montiert, welches in eine Zahnstange parrallel zur Schien greift. Ander Möglichkeiten wären noch die Kraftübertragung per Riemen oder Gewindestange, wie es bei 3D-Druckern üblich ist. 
  
 ### <a name="16"></a>Mittwoch, 22. September 2021 
-Heute haben wir uns auf einen Motortyp festgelegt. 
+Heute haben wir uns auf einen Motortyp festgelegt. Wir haben uns gegen die Schrittmotoren entschieden, da wir es nicht für nötig halten, dass die Position des Flugzeuges zu jedem Zeitpunkt genau bestimmbar ist. Wir werden normale Motoren verwenden und dann an das Ende jeder Schiene einen Taster montiren, so dass der Schlitten nicht aus der Schiene heraus fahren kann. 
   
 ### <a name="17"></a>Dienstag, 28. September 2021
-   
+Heute haben wir uns damit befasst, wie man einen Motornicht mechanisch sondern elektonisch umpolen kann. Dies wird mit vier elektrischen Halbleitern, also Transistoren oder MOSFET´S realisier. Mit disen wird eine sogenannte H-Bridge Schaltung aufgebaut (Siehe Bild). Bei dieser werden zwei der Transistoren durchgeschaltet um so einen Stromfluss durch den Motor zu ermöglichen. Wenn die anderen zwei Transistoren durchgeschaltet werden, fließt der Strom in die andere Richtung, ergo der Motor dreht sich in die andere Richtung. 
 ### <a name="18"></a>Mittwoch, 29. September 2021
   Entfall
   
