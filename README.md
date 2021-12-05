@@ -112,7 +112,8 @@ void setup() {
 
 void loop() {
 
-  buttonState = digitalRead(TriggerPin); // Es wird festgelegt, dass die Variable "buttonState" ab jetzt einem Wert gleichgesetzt ist, nämlich dem Input Wert. Dieser kann entweder HIGH sein, dann liegen 5V an diesem an, oder LOW sein, dann liegne 0V an.
+  buttonState = digitalRead(TriggerPin); // Es wird festgelegt, dass die Variable "buttonState" ab jetzt einem Wert gleichgesetzt ist, nämlich dem Input Wert. Dieser 
+  kann entweder HIGH sein, dann liegen 5V an diesem an, oder LOW sein, dann liegne 0V an.
 
 
   if (buttonState == HIGH) {      // Es wird eine Bedingung aufgestellt, nur wenn diese Erfüllt ist wird der Inhalt ausgeführt.
@@ -123,7 +124,7 @@ void loop() {
      digitalWrite(LaserPin, LOW); // Wenn die vorangegangene Bedingung nicht erfüllt ist, wird die Spannung am OutputPin auf 0V gesetzt
   }
 }
-```c
+```
 
 
 
