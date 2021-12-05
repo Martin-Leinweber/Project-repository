@@ -297,6 +297,7 @@ else if (sensorValueY >510 ||sensorValueY<535){
 Auch wenn das Abspielen des Sounds funktioniert hat mussten wir feststellen, dass wir eine andere Lösung für das Abspieln von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurück setzt. Dieser Befehl ist für die Ausführung der Libary  welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Altenativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspieln können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu höhren sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
   
 ### <a name="24"></a>Mittwoch, 03. November 2021
+Heute haben wir uns weiter über die Hardware gedanken gemacht , und einige Zeichnungen angefertigt. Auf Grundlage dieser haben wir außerhalb der Schule begonnen in der CAD-Software "Fusion 360" die Hardware im Deteil zu entwickeln. An diesem MOdell wurde zu Hause immer wieder zwischendurch weiter gearbeitet. Das fertige Modell ist findet im Reposetory zu unserem Projekt.
   
 ### <a name="25"></a>Dienstag, 09. November 2021
   Entfall
