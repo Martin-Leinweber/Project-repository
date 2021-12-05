@@ -48,7 +48,7 @@
 
 [24. Mittwoch, 03. November 2021](#24)
 
-[25. Dienstag, 09. November 2021](#25) entfall
+[25. Dienstag, 09. November 2021](#25)
 
 [26. Mittwoch, 10. November 2021](#26)
 
