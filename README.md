@@ -70,6 +70,7 @@ Heute, in der ersten Informatikstunde, wurden wir informiert was in Zukunft in d
 Anschließend haben wir uns unsere Github Accounts eingerichtet und uns mit dieser Platform etwas vertraut gemacht. Zwischendurch haben wir uns schon einige Projektideen ausgedacht und diese besprochen.
 
 ### <a name="2"></a>Mittwoch, 04. August 2021
+
 Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funtionen von Markdown aus einander gesetzt. Wir haben dieses repository erstellt und mit den Blogeinträgen angefangen. Außerdem haben wir weiter über Projektideen gegrübelt.
 
 ### <a name="3"></a>Dienstag, 10. August 2021
@@ -86,6 +87,7 @@ Heute haben wir getestet, ob unsere Idee zur Treffererkennung des gegnerischen F
 
 ### <a name="7"></a>Dienstag, 24. August 2021
 Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. die Analogsignale der beiden Achsenpotentiometer auslesen und auf bestimmten Pins ein entsprechende Analogsiganl ausgeben. Hierzu mussten wir zunächst mittels eines Multimeters und dessen Kontaktprüfungs Funktion ermitteln welche Pins des Sub-D Steckers zu welchen Kabeln im inneren gehören. Außerdem mussten wir eine zusätliche Leitung verlöten, da die zwei Achsenpotentiometer im Joystick nicht als Spannungsteiler, also mit allen 3 Kontakten, sondern nur mit 2 Kontakten als variabeln Widerstand genutzt wurden. Die neu Verkabelung ist Im Schaublid zu sehen.
+![Screenshot 2021-12-05 175220](https://user-images.githubusercontent.com/88385986/144758447-55c91426-aac9-4c53-9be6-37864bfed54b.png)
 
 
 ### <a name="8"></a>Mittwoch, 25. August 2021
