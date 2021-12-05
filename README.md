@@ -131,6 +131,10 @@ void loop() {
 
 ### <a name="10"></a>Mittwoch, 01. September 2021
 Nach dem nun der Abzug des Joysticks benutzbat ist haben wir uns damit auseinander gesetzt, wie man mit einem Arduino Sounddateien abspielen kann. Hierzu haben wir einen kleinen 0,5W Lautsprecher benutzt. Um MP3 Dateien ohne Erweiterungsmodul abspielen zu können, muss diese in dekodierter Form in den Arduino Code geschrieben werden. Das heißt, im Code steht in Zahlenwerten wie lange und wie stark Strom durch den Elektromagenet des Lautsprechers fließen soll. Somit wird ein Klang erzeugt. Um dies auszuführen haben wir eine Libary eines anderen Nutzers genutzt. Die Dekodierung der MP3 Datei haben wir mit einem kleinen Java script gemacht, welches wir auf GitHub gefunden haben. Unser Test Sound war ein kurzes Geräusch einer Laserkanone.
+
+
+### <a name="11"></a>Dienstag, 07. September 2021
+Heute haben wir am letzten Mittwoch angeknüpft und uns weiter mit der Libary zum Abspieln von Sounds befasst, bis wir das ganze zum Laufen gebracht haben. Im folgenden Findet sich der entsprechende Code.
 ```c
 #include <PCM.h>
     const unsigned char sample[] PROGMEM = {
@@ -167,11 +171,9 @@ void loop() {
   delay(1);
   }
 ```
-
-### <a name="11"></a>Dienstag, 07. September 2021
-Auch wenn das Abspielen des Sounds funktioniert hat mussten wir feststellen, dass wir eine andere Lösung für das Abspieln von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurück setzt. Dieser Befehl ist für die Ausführung der Libary  welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Altenativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspieln können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu höhren sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
   
 ### <a name="12"></a>Mittwoch, 08. September 2021
+Auch wenn das Abspielen des Sounds funktioniert hat mussten wir feststellen, dass wir eine andere Lösung für das Abspieln von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurück setzt. Dieser Befehl ist für die Ausführung der Libary  welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Altenativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspieln können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu höhren sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
   
   
 ### <a name="13"></a>Dienstag, 14. September 2021
