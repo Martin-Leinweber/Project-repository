@@ -1,69 +1,68 @@
 # Stundenprotokoll
 
-[1. Dienstag, 03. August 2021](#1)
+[Dienstag, 03. August 2021](#1)
 
-[2. Mittwoch, 04. August 2021](#2)
+[Mittwoch, 04. August 2021](#2)
 
-[3. Dienstag, 10. August 2021](#3)
+[Dienstag, 10. August 2021](#3)
 
-[4. Mittwoch, 11. August 2021](#4)
+[Mittwoch, 11. August 2021](#4)
 
-[5. Dienstag, 17. August 2021](#5)
+[Dienstag, 17. August 2021](#5)
 
-[6. Mittwoch, 18. August 2021](#6)
+[Mittwoch, 18. August 2021](#6)
 
-[7. Dienstag, 24. August 2021](#7)
+[Dienstag, 24. August 2021](#7)
 
-[8. Mittwoch, 25. August 2021](#8)
+[Mittwoch, 25. August 2021](#8)
 
-[9. Dienstag, 31. August 2021](#9)
+[Dienstag, 31. August 2021](#9)
 
-[10. Mittwoch, 01. September 2021](#10)
+[Mittwoch, 01. September 2021](#10)
 
-[11. Dienstag, 07. September 2021](#11)
+[Dienstag, 07. September 2021](#11)
 
-[12. Mittwoch, 08. September 2021](#12)
+[Mittwoch, 08. September 2021](#12)
 
-[13. Dienstag, 14. September 2021](#13)
+[Dienstag, 14. September 2021](#13)
 
-[14. Mittwoch, 15. September 2021](#14)
+[Mittwoch, 15. September 2021](#14)
 
-[15. Dienstag, 21. September 2021](#15)
+[Dienstag, 21. September 2021](#15)
 
-[16. Mittwoch, 22. September 2021](#16)
+[Mittwoch, 22. September 2021](#16)
 
-[17. Dienstag, 28. September 2021](#17)
+[Dienstag, 28. September 2021](#17)
 
-[18. Mittwoch, 29. September 2021](#18)
+[Mittwoch, 29. September 2021](#18)
 
-[19. Dienstag, 19. Oktober 2021](#19)
+[Dienstag, 19. Oktober 2021](#19)
 
-[20. Mittwoch, 20. Oktober 2021](#20)
+[Mittwoch, 20. Oktober 2021](#20)
 
-[21. Dienstag, 26. Oktober 2021](#21)
+[Dienstag, 26. Oktober 2021](#21)
 
-[22. Mittwoch, 27. Oktober 2021](#22)
+[Mittwoch, 27. Oktober 2021](#22)
 
-[23. Dienstag, 02. November 2021](#23)
+[Dienstag, 02. November 2021](#23)
 
-[24. Mittwoch, 03. November 2021](#24)
+[Mittwoch, 03. November 2021](#24)
 
-[25. Dienstag, 09. November 2021](#25)
+[Dienstag, 09. November 2021](#25)
 
-[26. Mittwoch, 10. November 2021](#26)
+[Mittwoch, 10. November 2021](#26)
 
-[27. Dienstag, 16. November 2021](#27)
+[Dienstag, 16. November 2021](#27)
 
-[28. Mittwoch, 17. November 2021](#28)
+[Mittwoch, 17. November 2021](#28)
 
-[29. Dienstag, 23. November 2021](#29)
+[Dienstag, 23. November 2021](#29)
 
-[30. Mittwoch, 24. November 2021](#30)
+[Mittwoch, 24. November 2021](#30)
 
-[31. Dienstag, 30. November 2021](#31)
+[Dienstag, 30. November 2021](#31)
 
-[32. Dienstag, 01. Dezember 2021](#32)
-
+[Dienstag, 01. Dezember 2021](#32)
 
 
 ### <a name="1"></a>Dienstag, 03. August 2021
