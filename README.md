@@ -182,9 +182,11 @@ Da das abspielen von Sounds nun funktionierte, haben wir uns heute das erste mal
   Entfall
   
 ### <a name="15"></a>Dienstag, 21. September 2021
-Heute haben wir nach einiger recherche nach Bauteilen aus Kostengründen besschlossen, die Bewegungsbahnen des Flugzeuges mittels Schubladen schienen zu realisieren. Linearkugellager wären natürlich die bessere Option, aber dafür auch die  teurere.  
+Heute haben wir nach einiger recherche nach Bauteilen aus Kostengründen besschlossen, die Bewegungsbahnen des Flugzeuges mittels Schubladen schienen zu realisieren. Linearkugellager wären natürlich die bessere Option, aber dafür auch die  teurere. Das Flugzeug wird sich also auf zwri senkrecht zueinander stehenden Schienen auf einem Schlitten bewegt. Eine weitere Frage die offen blieb war, ob wir normale Gleichstrommotoren für die Achsenbewegung verwenden, oder Schrittmotoren. Mit Schrittmotoren wäre es möglich, dass der Arduino zu jedem Zeitpunkt genau weiß, wo, in einem vorher definierten Koordinatensystem, sich das Flugzeug befindet. Den Gleichen Effekt könnte man jedoch auch mit normalen Motor erlangen, wenn man parrallel zu den Achsenschienen einen Linearwiderstand anbringen würde. Der sogenannte Schleifer würde dann an den Schlitten auf der Schiene montiert werden. Diese Frage haben wir zunächst offen gelassen.
+Entschieden haben wir uns aber in der Frage nach der Kraftübertragung vom Motor an den Schlitten. Wir haben uns auch hier für die günstigste Variante entschieden. An dem Motor wird ein Zahnrad montiert, welches in eine Zahnstange parrallel zur Schien greift. Ander Möglichkeiten wären noch die Kraftübertragung per Riemen oder Gewindestange, wie es bei 3D-Druckern üblich ist. 
  
 ### <a name="16"></a>Mittwoch, 22. September 2021 
+Heute haben wir uns auf einen Motortyp festgelegt. 
   
 ### <a name="17"></a>Dienstag, 28. September 2021
    
