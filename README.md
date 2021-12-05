@@ -219,6 +219,77 @@ Heute ist uns bei weiterer Teilerecherche aufgefallen, dass es bereits fertige M
 ### <a name="20"></a>Mittwoch, 20. Oktober 2021
 Da wir nun ale Wesentlichen Hardwarefragen geklärt hatten haben wir begonnen Code zu entwickeln.
 ### <a name="21"></a>Dienstag, 26. Oktober 2021
+Nach der Heutigen Stunde war unser Code auf diesem Stand und bereits in der Lage mit einem Joystick zwei Motoren ind jeweils beide Richtungen zu drehen.
+```c
+const int analogInPinX = A1;
+const int analogInPinY = A0; 
+ 
+const int analogOutPin9 = 9; 
+const int analogOutPin11 = 11;
+
+const int OutPinX10 = 10;
+const int OutPinX6 = 6; 
+
+int sensorValueY = 0;
+int sensorValueX = 0;  
+      
+int outputValueY = 0;   
+int outputValueX = 0; 
+
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  //X
+    sensorValueX = analogRead(analogInPinX);
+
+
+ if (sensorValueX > 540) {
+  outputValueX = map(sensorValueX, 540, 955, 0, 255);
+  analogWrite(OutPinX10, outputValueX);
+ }
+
+else if (sensorValueX < 500) {
+  outputValueX = map(sensorValueX, 500, 210, 0, 255);
+  analogWrite(OutPinX6, outputValueX);
+ }
+else  if (sensorValueX > 510 || sensorValueX < 522){
+  outputValueX = 0;
+  analogWrite(OutPinX10, outputValueX);
+  analogWrite(OutPinX6, outputValueX);
+}
+
+// Y
+  sensorValueY = analogRead(analogInPinY);
+ 
+ if (sensorValueY > 540) {
+  outputValueY = map(sensorValueY, 540, 890, 0, 200);
+  analogWrite(analogOutPin9, outputValueY);
+ }
+
+else if (sensorValueY < 500) {
+  outputValueY = map(sensorValueY, 500, 155, 0, 100);
+  analogWrite(analogOutPin11, outputValueY);
+ }
+else if (sensorValueY >510 ||sensorValueY<535){
+  outputValueY = 0;
+  analogWrite(analogOutPin11, outputValueY);
+  analogWrite(analogOutPin9, outputValueY);
+}
+
+ 
+ 
+  Serial.print("sensor = ");
+  Serial.print(sensorValueY);
+  Serial.print("\t output = ");
+  Serial.println(outputValueY);
+
+
+  delay(1);
+}
+```
   
 ### <a name="22"></a>Mittwoch, 27. Oktober 2021
   
