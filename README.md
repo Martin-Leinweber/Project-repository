@@ -168,6 +168,7 @@ void loop() {
 ```
 
 ### <a name="11"></a>Dienstag, 07. September 2021
+Auch wenn das Abspielen des Sounds funktioniert hat mussten wir feststellen, dass wir eine andere Lösung für das Abspieln von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurück setzt. Dieser Befehl ist für die Ausführung der Libary  welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Altenativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspieln können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu höhren sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
   
 ### <a name="12"></a>Mittwoch, 08. September 2021
   
