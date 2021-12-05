@@ -73,15 +73,13 @@ Anschließend haben wir uns unsere Github Accounts eingerichtet und uns mit dies
 Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funtionen von Markdown aus einander gesetzt. Außerdem haben wir weiter über Projektideen gegrübelt.
 
 ### <a name="3"></a>Dienstag, 10. August 2021
-Heute haben wir uns auf eine Projektidee festgelegt. Unser Plan ist es einen Arcade-Spielekasten zu bauen, dessen Spielinhalt nicht auf einem Bildschirm, sondern mit echten Modellen dargestellt wird. 
-
 
 ### <a name="4"></a>Mittwoch, 11. August 2021
-Heute haben wir getestet, ob unseere Idee zur Treffererkennung des gegnerischen Flugzeuges mittels eines Fotowiderstandes und eines Laserpointers funktionieren könnte. Also haben wir mit dem Fotowiderstand und einem weiteren Widerstand einen Spannungsteiler aufgebaut und getestet ob bei direkten Beleuchten mit einem Laserpointer der Spannungsunterschied zum normalen Tageslicht groß genug ist um ihn eindeutig auszulesen.
+Heute haben wir uns auf eine Projektidee festgelegt. Unser Plan ist es einen Arcade-Spielekasten zu bauen, dessen Spielinhalt nicht auf einem Bildschirm, sondern mit echten Modellen dargestellt wird.
 
 
 ### <a name="5"></a>Dienstag, 17. August 2021
-
+Heute haben wir getestet, ob unseere Idee zur Treffererkennung des gegnerischen Flugzeuges mittels eines Fotowiderstandes und eines Laserpointers funktionieren könnte. Also haben wir mit dem Fotowiderstand und einem weiteren Widerstand einen Spannungsteiler aufgebaut und getestet ob bei direkten Beleuchten mit einem Laserpointer der Spannungsunterschied zum normalen Tageslicht groß genug ist um ihn eindeutig auszulesen.
 
 ### <a name="6"></a>Mittwoch, 18. August 2021
 
