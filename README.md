@@ -91,15 +91,15 @@ Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick be
 
 
 ### <a name="8"></a>Mittwoch, 25. August 2021
-Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reperatur und anschließend mit der auslesung eines Tasters beschäftigt.
+Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reperatur und anschließend mit der auslesung eines Tasters beschäftigt. 
 
 
 ### <a name="9"></a>Dienstag, 31. August 2021
-Nach dem nun der Abzug des Joysticks benutzbat ist haben wir uns damit auseinander gesetzt, wie man mit einem Arduino Sounddateien abspielen kann. Hierzu haben wir einen kleinen 0,5W Lautsprecher benutzt.
+
 
 
 ### <a name="10"></a>Mittwoch, 01. September 2021
-
+Nach dem nun der Abzug des Joysticks benutzbat ist haben wir uns damit auseinander gesetzt, wie man mit einem Arduino Sounddateien abspielen kann. Hierzu haben wir einen kleinen 0,5W Lautsprecher benutzt.
 
 ### <a name="11"></a>Dienstag, 07. September 2021
   
