@@ -76,7 +76,7 @@ Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funtionen vo
 Heute haben wir weiter über Projektideen nachgedacht und intensiv über deren Machbarkeit diskutiert.
 
 ### <a name="4"></a>Mittwoch, 11. August 2021
-Heute haben wir uns auf eine Projektidee festgelegt. Unser Plan ist es einen Arcade-Spielekasten zu bauen, dessen Spielinhalt nicht auf einem Bildschirm, sondern mit echten Modellen dargestellt wird. Es soll in dem Spiel um eine flugzeug Verfolgungsjagt gehen. Das verfolgende Flugzeug soll vom Spieler gesteuert werden und muss ein automatisch gesteuertes gegnerisches Flugzeug abschießen.
+Heute haben wir uns auf eine Projektidee festgelegt. Unser Plan ist es einen Arcade-Spielekasten zu bauen, dessen Spielinhalt nicht auf einem Bildschirm, sondern mit echten Modellen dargestellt wird. Es soll in dem Spiel um eine Flugzeug Verfolgungsjagt, auf Englisch Dogfight genannt, gehen. Das verfolgende Flugzeug soll vom Spieler gesteuert werden und muss ein automatisch gesteuertes gegnerisches Flugzeug abschießen.
 
 ### <a name="5"></a>Dienstag, 17. August 2021
 Heute haben wir uns überlegt, wie man überprüfen kann, ob der Spieler das andere Flugzeug wirklich getroffen hat. Eine überlegung war es, die schienen auf denen sich die Flugzeuge bewegen mit Linearwiedertänden auszustatten, und auf die weise die positionen der Flugzeuge zu berechnen. Nach kurzer Recherche über die dafür benötigten Bauteile haben wir diese Idee wieder verworfen. Dann kamen wir auf die Idee, dass man an dem vervolgenden flugzeug einen LASER befestigen könnte und am verfolgten flugzeug einen Foowiderstand. Wenn der LASER den Fotowiderstand trifft kann der Arduino  dies Messen.
