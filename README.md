@@ -189,7 +189,10 @@ Entschieden haben wir uns aber in der Frage nach der Kraftübertragung vom Motor
 Heute haben wir uns auf einen Motortyp festgelegt. Wir haben uns gegen die Schrittmotoren entschieden, da wir es nicht für nötig halten, dass die Position des Flugzeuges zu jedem Zeitpunkt genau bestimmbar ist. Wir werden normale Motoren verwenden und dann an das Ende jeder Schiene einen Taster montiren, so dass der Schlitten nicht aus der Schiene heraus fahren kann. 
   
 ### <a name="17"></a>Dienstag, 28. September 2021
-Heute haben wir uns damit befasst, wie man einen Motornicht mechanisch sondern elektonisch umpolen kann. Dies wird mit vier elektrischen Halbleitern, also Transistoren oder MOSFET´S realisier. Mit disen wird eine sogenannte H-Bridge Schaltung aufgebaut (Siehe Bild). Bei dieser werden zwei der Transistoren durchgeschaltet um so einen Stromfluss durch den Motor zu ermöglichen. Wenn die anderen zwei Transistoren durchgeschaltet werden, fließt der Strom in die andere Richtung, ergo der Motor dreht sich in die andere Richtung. 
+Heute haben wir uns damit befasst, wie man einen Motornicht mechanisch sondern elektonisch umpolen kann. Dies wird mit vier elektrischen Halbleitern, also Transistoren oder MOSFET´S realisier. Mit disen wird eine sogenannte H-Bridge Schaltung aufgebaut (Siehe Bild). Bei dieser werden zwei der Transistoren durchgeschaltet (S1 und S4) um so einen Stromfluss durch den Motor zu ermöglichen. Wenn die anderen zwei Transistoren (S2 und S3) durchgeschaltet werden, fließt der Strom in die andere Richtung, ergo der Motor dreht sich in die andere Richtung. 
+![310px-H_bridge svg](https://user-images.githubusercontent.com/88385986/144763248-f9dd9373-5276-48ae-a490-cbb7d415482a.png)
+
+
 ### <a name="18"></a>Mittwoch, 29. September 2021
   Entfall
   
