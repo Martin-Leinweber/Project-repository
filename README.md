@@ -95,7 +95,35 @@ Heute haben wir die am Vortag genannten Arbeitsschritte beendigt. Die Verkabelun
 ![Screenshot 2021-12-05 175220](https://user-images.githubusercontent.com/88385986/144758447-55c91426-aac9-4c53-9be6-37864bfed54b.png)
 
 ### <a name="9"></a>Dienstag, 31. August 2021
-Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reperatur und anschließend mit der auslesung eines Tasters beschäftigt. 
+Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reperatur des selbigen befasst. Hierzu wurde der Taster ausgebaut und die Kontaktflächen gereinigt. Außerdem musste das Kontaktfähnchen etwas nachgebogen werden. Danach hat der Taster wieder einwandfrei funktioniert. Weiterführend haben wir angefangen einen kurzen Testcode für den Arduino zu schreiben mit welchem wir den Laserpointer mittels Knopfdruck des Joysticks aktivieren können. Die Laserdiode haben wir bereits zu Hause ausgebaut, jedoch mussten noch zwei Kabel an diese gelötet werden, um diese mit dem Steckbrett verwenden zu können. 
+
+```c
+const int TriggerPin = 2;     // Der Digital Pin 2 des Arduinos bekommt den Namen "TriggerPin"
+const int LaserPin =  13;     // Der Digital Pin 13 des Arduinos bekommt den Namen "LaserPin"
+
+
+int buttonState = 0;          // Die Variabel welche für AN und AUS steht bekommt den Namen "buttonState"
+
+void setup() {
+  pinMode(LaserPin, OUTPUT);  // Der "LaserPin" wird als Output Pin definiert
+ 
+  pinMode(TriggerPin, INPUT);   // Der "TriggerPin" wird als Input Pin definiert
+}
+
+void loop() {
+
+  buttonState = digitalRead(TriggerPin); // Es wird festgelegt, dass die Variable "buttonState" ab jetzt einem Wert gleichgesetzt ist, nämlich dem Input Wert. Dieser kann entweder HIGH sein, dann liegen 5V an diesem an, oder LOW sein, dann liegne 0V an.
+
+
+  if (buttonState == HIGH) {      // Es wird eine Bedingung aufgestellt, nur wenn diese Erfüllt ist wird der Inhalt ausgeführt.
+    
+    digitalWrite(LaserPin, HIGH); // Am Output Pin werden 5V angelegt
+  }
+  else {            
+     digitalWrite(LaserPin, LOW); // Wenn die vorangegangene Bedingung nicht erfüllt ist, wird die Spannung am OutputPin auf 0V gesetzt
+  }
+}
+```c
 
 
 
