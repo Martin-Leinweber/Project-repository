@@ -189,7 +189,7 @@ Entschieden haben wir uns aber in der Frage nach der Kraftübertragung vom Motor
 Heute haben wir uns auf einen Motortyp festgelegt. Wir haben uns gegen die Schrittmotoren entschieden, da wir es nicht für nötig halten, dass die Position des Flugzeuges zu jedem Zeitpunkt genau bestimmbar ist. Wir werden normale Motoren verwenden und dann an das Ende jeder Schiene einen Taster montiren, so dass der Schlitten nicht aus der Schiene heraus fahren kann. 
   
 ### <a name="17"></a>Dienstag, 28. September 2021
-Heute haben wir uns damit befasst, wie man einen Motornicht mechanisch sondern elektonisch umpolen kann. Dies wird mit vier elektrischen Halbleitern, also Transistoren oder MOSFET´S realisier. Mit disen wird eine sogenannte H-Bridge Schaltung aufgebaut (Siehe Bild). Bei dieser werden zwei der Transistoren durchgeschaltet (S1 und S4) um so einen Stromfluss durch den Motor zu ermöglichen. Wenn die anderen zwei Transistoren (S2 und S3) durchgeschaltet werden, fließt der Strom in die andere Richtung, ergo der Motor dreht sich in die andere Richtung. 
+Heute haben wir uns damit befasst, wie man einen Motor nicht mechanisch sondern elektonisch umpolen kann. Dies wird mit vier elektrischen Halbleitern, also Transistoren oder MOSFET´S realisier. Mit disen wird eine sogenannte H-Bridge Schaltung aufgebaut (Siehe Bild). Bei dieser werden zwei der Transistoren durchgeschaltet (S1 und S4) um so einen Stromfluss durch den Motor zu ermöglichen. Wenn die anderen zwei Transistoren (S2 und S3) durchgeschaltet werden, fließt der Strom in die andere Richtung, ergo der Motor dreht sich in die andere Richtung. So ist die Bewegung nach links und rechts und ober und unten möglich. Eine solche Schaltung haben wir heute begonnen aufzubauen.
 ![310px-H_bridge svg](https://user-images.githubusercontent.com/88385986/144763248-f9dd9373-5276-48ae-a490-cbb7d415482a.png)
 
 
@@ -197,16 +197,17 @@ Heute haben wir uns damit befasst, wie man einen Motornicht mechanisch sondern e
   Entfall
   
 ### <a name="19"></a>Dienstag, 19. Oktober 2021
-Auch wenn das Abspielen des Sounds funktioniert hat mussten wir feststellen, dass wir eine andere Lösung für das Abspieln von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurück setzt. Dieser Befehl ist für die Ausführung der Libary  welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Altenativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspieln können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu höhren sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
+Heute ist uns bei weiterer Teilerecherche aufgefallen, dass es bereits fertige Motorentreiber-Platinen für einen schmalen Taler zu kaufen gibt. Diese funtionierne ebenfalls auf dem Prinzip einer H-Bridge Schaltung haben aber einige Vorteile, z.B. in der Einfachheit und in ihrem Volumen.
  
   
 ### <a name="20"></a>Mittwoch, 20. Oktober 2021
-  
+Da wir nun ale Wesentlichen Hardwarefragen geklärt hatten haben wir begonnen Code zu entwickeln.
 ### <a name="21"></a>Dienstag, 26. Oktober 2021
   
 ### <a name="22"></a>Mittwoch, 27. Oktober 2021
   
 ### <a name="23"></a>Dienstag, 02. November 2021
+Auch wenn das Abspielen des Sounds funktioniert hat mussten wir feststellen, dass wir eine andere Lösung für das Abspieln von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurück setzt. Dieser Befehl ist für die Ausführung der Libary  welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Altenativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspieln können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu höhren sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
   
 ### <a name="24"></a>Mittwoch, 03. November 2021
   
