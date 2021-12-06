@@ -318,4 +318,4 @@ Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight)
 Heute haben wir das fertige Bewegungssystem des flugzeuges getestet und fehler behoben. Zudem haben wir uns gedanken über die Taster an den Rändern des Spiels gemacht und überlegt, wie wir diese im Code implementieren können.
 
 ### <a name="32"></a>Mittwoch, 01. Dezember 2021
-  
+Heute haben wir den Code so verändert, dass das Flugzeug, wenn es einen Taster betätigt nicht mehr weiter in die Richtung des Tasters bewegen kann.
