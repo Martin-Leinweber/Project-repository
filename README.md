@@ -317,6 +317,7 @@ Heute haben wir an der Projektseite weitergearbeitet. Wir haben den Code umgesch
 Heute haben wir ausgehend von der letzten Stunde mit der überarbeitung des Codes und dessen Erklärung weiter gemacht.
 
 ### <a name="29"></a>Dienstag, 23. November 2021
+Heute haben wir digital den finalen Schaltplan erstellt und außerdem an der Projektseite weiter gearbeitet.
 
 ### <a name="30"></a>Mittwoch, 24. November 2021
 Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Diese sind Notwendig, damit die Schlitten nicht aus den Schienen heraus fahren kann. Wenn der Schlitten also an das Ende der Schiene, bzw. an das Ende der Zahnstange fährt, betätigt dieser einen Taster. Durch die Betätigung des Tasters wird ein Weiterdrehen des Motors in diese Richtung verhindert. Der erste Lösungsansatz war rein elektronisch mittels Dioden. Einen Schaltplan für dieses Konzept mit einem der Motoren findet sich unten. Letzendlich halten wir eine Softwarelösung jedoch für einfacher. Außerdem heißt das Unterrichtsfach Informatik und nicht Elektrotechnik.
