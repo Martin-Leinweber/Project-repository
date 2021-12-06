@@ -315,9 +315,9 @@ Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight)
 ### <a name="30"></a>Mittwoch, 24. November 2021
 
 ### <a name="31"></a>Dienstag, 30. November 2021
-Heute haben wir die mechanische Steuerung des flugzeuges getestet und dabei aufgetretene Fehler behoben. Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Eine Überlegung war es, (Diodenlösung). Stattdessen haben wir die Schalter wie in der Grafik zu sehen ist angeschlossen und den Code so umgeschrieben, dass das Flugzeug, wenn es einen Taster betätigt nicht weiter in diese Richtung fahren kann. Genaueres Zum Code kann auf der Projektseite nachgelesen werden.
+Heute haben wir die mechanische Steuerung des flugzeuges getestet und dabei aufgetretene Fehler behoben. Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Eine Überlegung war es, (Diodenlösung). Stattdessen halten wir eine Softwarelösung für deutlich besser und simpler.
 ![image](https://user-images.githubusercontent.com/88386307/144904068-8c332e9d-e88f-467a-8d05-1efd01582796.png)
 
 
 ### <a name="32"></a>Mittwoch, 01. Dezember 2021
-Heute haben wir den Code so verändert, dass das Flugzeug, wenn es einen Taster betätigt nicht mehr weiter in die Richtung des Tasters bewegen kann.
+Heute haben wir den Code so verändert, dass das Flugzeug, wenn es einen Taster betätigt nicht mehr weiter in die Richtung des Tasters bewegen kann. Genaueres Zum Code kann auf der Projektseite nachgelesen werden.
