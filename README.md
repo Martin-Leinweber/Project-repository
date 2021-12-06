@@ -84,6 +84,7 @@ Heute haben wir uns überlegt, wie man überprüfen kann, ob der Spieler das and
 
 ### <a name="6"></a>Mittwoch, 18. August 2021
 Heute haben wir getestet, ob unsere Idee zur Treffererkennung des gegnerischen Flugzeuges mittels eines Fotowiderstandes und eines Laserpointers funktionieren könnte. Also haben wir mit dem Fotowiderstand und einem weiteren Widerstand einen Spannungsteiler aufgebaut und getestet ob bei direkten Beleuchten mit einem Laserpointer der Spannungsunterschied zum normalen Tageslicht groß genug ist um ihn eindeutig auszulesen. Der Code sowie der Schaltkreis und ein Screenshot des Seriellen Monitors finden sich im Folgenden.
+
 ![Screenshot 2021-12-05 174717](https://user-images.githubusercontent.com/88385986/144761199-aa851cea-45b3-4096-9701-6276cc0a39f1.png)
 ```c
 
@@ -108,7 +109,8 @@ Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick be
 
 
 ### <a name="8"></a>Mittwoch, 25. August 2021
-Heute haben wir die am Vortag genannten Arbeitsschritte beendigt. Die Verkabelung des Joysticks ist nun wie auf dem Schaublid zu sehen.
+Heute haben wir die am Vortag genannten Arbeitsschritte beendigt. Die Verkabelung des Joysticks ist nun wie auf dem Schaubild zu sehen. Der Joystick wird im Schaubild durch zwei Potentiometer dargestellt.
+
 ![Screenshot 2021-12-05 175220](https://user-images.githubusercontent.com/88385986/144758447-55c91426-aac9-4c53-9be6-37864bfed54b.png)
 
 ### <a name="9"></a>Dienstag, 31. August 2021
@@ -316,6 +318,7 @@ Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight)
 
 ### <a name="31"></a>Dienstag, 30. November 2021
 Heute haben wir die mechanische Steuerung des flugzeuges getestet und dabei aufgetretene Fehler behoben. Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Eine Überlegung war es, (Diodenlösung). Stattdessen halten wir eine Softwarelösung für deutlich besser und simpler.
+
 ![image](https://user-images.githubusercontent.com/88386307/144904068-8c332e9d-e88f-467a-8d05-1efd01582796.png)
 
 
