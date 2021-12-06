@@ -221,18 +221,19 @@ Da wir nun ale Wesentlichen Hardwarefragen geklärt hatten haben wir begonnen Co
 ### <a name="21"></a>Dienstag, 26. Oktober 2021
 Nach der Heutigen Stunde war unser Code auf diesem Stand und bereits in der Lage mit einem Joystick zwei Motoren ind jeweils beide Richtungen zu drehen.
 ```c
+//Input Pin für die Achsen des Joysticks
 const int analogInPinX = A1;
-const int analogInPinY = A0; 
- 
+const int analogInPinY = A0;
+
+//Pwm Pins für den Motor-Controller
 const int analogOutPin9 = 9; 
 const int analogOutPin11 = 11;
-
 const int OutPinX10 = 10;
 const int OutPinX6 = 6; 
 
+//Variablen für zwischenspeicher
 int sensorValueY = 0;
 int sensorValueX = 0;  
-      
 int outputValueY = 0;   
 int outputValueX = 0; 
 
@@ -273,7 +274,7 @@ else if (sensorValueY < 500) {
   outputValueY = map(sensorValueY, 500, 155, 0, 100);
   analogWrite(analogOutPin11, outputValueY);
  }
-else if (sensorValueY >510 ||sensorValueY<535){
+else if (sensorValueY > 510 && sensorValueY < 535){
   outputValueY = 0;
   analogWrite(analogOutPin11, outputValueY);
   analogWrite(analogOutPin9, outputValueY);
@@ -297,13 +298,14 @@ else if (sensorValueY >510 ||sensorValueY<535){
 Auch wenn das Abspielen des Sounds funktioniert hat mussten wir feststellen, dass wir eine andere Lösung für das Abspieln von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurück setzt. Dieser Befehl ist für die Ausführung der Libary  welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Altenativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspieln können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu höhren sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
   
 ### <a name="24"></a>Mittwoch, 03. November 2021
-Heute haben wir uns weiter über die Hardware gedanken gemacht , und einige Zeichnungen angefertigt. Auf Grundlage dieser haben wir außerhalb der Schule begonnen in der CAD-Software "Fusion 360" die Hardware im Deteil zu entwickeln. An diesem MOdell wurde zu Hause immer wieder zwischendurch weiter gearbeitet. Das fertige Modell ist findet sich auf unserer Projektseite. Das MOdell Zeigt jedoch nicht den ganzen Spieleautomaten, sondern nur die mechanische steuerung des Spielerflugzeuges. Außerdem fehlen in dem Modell Teile wie Schrauben und auch Klebeverbindungen sind nicht extra markiert.
+Heute haben wir uns weiter über die Hardware gedanken gemacht und einige Zeichnungen angefertigt. Auf Grundlage dieser haben wir außerhalb der Schule begonnen in der CAD-Software "Fusion 360" die Hardware im Deteil zu entwickeln. An diesem Modell wurde zu Hause immer wieder zwischendurch weiter gearbeitet. Das fertige Modell befindet sich auf unserer Projektseite. Das Modell Zeigt jedoch nicht den ganzen Spieleautomaten, sondern nur die mechanische steuerung des Spielerflugzeuges. Außerdem fehlen in dem Modell Teile wie Schrauben und auch Klebeverbindungen sind nicht extra markiert.
   
 ### <a name="25"></a>Dienstag, 09. November 2021
-  Entfall
+Entfall
   
 ### <a name="26"></a>Mittwoch, 10. November 2021
-  
+Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight) für unser Projekt angelegt und uns einen vernünftigen Aufbau für diese überlegt. Außerdem haben wir den Code umgeschrieben, damit er übersichtlicher und leichter nachvollziehbar ist. Zusätzlich haben wir einen den Code dubliziert und mit weitgehenden erklärungen versehen. Beide Versionen des Codes sind auf der Projektseite zu finden.
+
 ### <a name="27"></a>Dienstag, 16. November 2021
   
 ### <a name="28"></a>Mittwoch, 17. November 2021
