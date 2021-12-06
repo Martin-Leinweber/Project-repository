@@ -307,14 +307,15 @@ Entfall
 Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight) für unser Projekt angelegt und uns einen vernünftigen Aufbau für diese überlegt. Außerdem haben wir den Code umgeschrieben, damit er übersichtlicher und leichter nachvollziehbar ist. Zusätzlich haben wir einen den Code dubliziert und mit weitgehenden erklärungen versehen. Beide Versionen des Codes sind auf der Projektseite zu finden.
 
 ### <a name="27"></a>Dienstag, 16. November 2021
-  
+
 ### <a name="28"></a>Mittwoch, 17. November 2021
-  
+
 ### <a name="29"></a>Dienstag, 23. November 2021
-  
+
 ### <a name="30"></a>Mittwoch, 24. November 2021
-  
+
 ### <a name="31"></a>Dienstag, 30. November 2021
-  
+Heute haben wir das fertige Bewegungssystem des flugzeuges getestet und fehler behoben. Zudem haben wir uns gedanken über die Taster an den Rändern des Spiels gemacht und überlegt, wie wir diese im Code implementieren können.
+
 ### <a name="32"></a>Mittwoch, 01. Dezember 2021
   
