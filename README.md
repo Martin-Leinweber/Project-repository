@@ -329,7 +329,7 @@ Heute haben wir die mechanische Steuerung des Flugzeuges getestet und dabei aufg
 ![image](https://user-images.githubusercontent.com/88386307/144904068-8c332e9d-e88f-467a-8d05-1efd01582796.png)
 
 ### <a name="32"></a>Mittwoch, 01. Dezember 2021
-Heute haben wir den Code so erweitert, dass das Flugzeug, wenn es einen Taster betätigt, nicht mehr weiter in die Richtung des Tasters bewegen kann. Dazu haben wir die if-clauses um eine zusätzliche bedingung erweitert, nähmlich dass der Taster in der Bewegungsrichtung nicht betätigt wird.
+Heute haben wir den Code so erweitert, dass das Flugzeug, wenn es einen Taster betätigt, nicht mehr weiter in die Richtung des Tasters bewegen kann. Dazu haben wir die if-clauses um eine zusätzliche bedingung erweitert, nähmlich dass der Taster in der Bewegungsrichtung nicht betätigt sein darf.
 
 ```c
     //X-movement
