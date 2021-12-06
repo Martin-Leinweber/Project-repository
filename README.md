@@ -114,7 +114,7 @@ Heute haben wir die am Vortag genannten Arbeitsschritte beendigt. Die Verkabelun
 ![Screenshot 2021-12-05 175220](https://user-images.githubusercontent.com/88385986/144758447-55c91426-aac9-4c53-9be6-37864bfed54b.png)
 
 ### <a name="9"></a>Dienstag, 31. August 2021
-Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reperatur des selbigen befasst. Hierzu wurde der Taster ausgebaut und die Kontaktflächen gereinigt. Außerdem musste das Kontaktfähnchen etwas nachgebogen werden. Danach hat der Taster wieder einwandfrei funktioniert. Weiterführend haben wir angefangen einen kurzen Testcode für den Arduino zu schreiben mit welchem wir den Laserpointer mittels Knopfdruck des Joysticks aktivieren können. Die Laserdiode haben wir bereits zu Hause ausgebaut, jedoch mussten noch zwei Kabel an diese gelötet werden, um diese mit dem Steckbrett verwenden zu können. 
+Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reparatur des selbigen befasst. Hierzu wurde der Taster ausgebaut und die Kontaktflächen gereinigt. Außerdem musste das Kontaktfähnchen etwas nachgebogen werden. Danach hat der Taster wieder einwandfrei funktioniert. Weiterführend haben wir angefangen einen kurzen Testcode für den Arduino zu schreiben mit welchem wir den Laserpointer mittels Knopfdruck des Joysticks aktivieren können. Die Laserdiode haben wir bereits zu Hause ausgebaut, jedoch mussten noch zwei Kabel an diese gelötet werden, um diese mit dem Steckbrett verwenden zu können. 
 
 ```c
 const int TriggerPin = 2;     // Der Digital Pin 2 des Arduinos bekommt den Namen "TriggerPin"
@@ -148,11 +148,11 @@ void loop() {
 
 
 ### <a name="10"></a>Mittwoch, 01. September 2021
-Nach dem nun der Abzug des Joysticks benutzbat ist haben wir uns damit auseinander gesetzt, wie man mit einem Arduino Sounddateien abspielen kann. Hierzu haben wir einen kleinen 0,5W Lautsprecher benutzt. Um MP3 Dateien ohne Erweiterungsmodul abspielen zu können, muss diese in dekodierter Form in den Arduino Code geschrieben werden. Das heißt, im Code steht in Zahlenwerten wie lange und wie stark Strom durch den Elektromagenet des Lautsprechers fließen soll. Somit wird ein Klang erzeugt. Um dies auszuführen haben wir eine Libary eines anderen Nutzers genutzt. Die Dekodierung der MP3 Datei haben wir mit einem kleinen Java script gemacht, welches wir auf GitHub gefunden haben. Unser Test Sound war ein kurzes Geräusch einer Laserkanone.
+Nach dem nun der Abzug des Joysticks benutzbar ist haben wir uns damit auseinander gesetzt, wie man mit einem Arduino Sounddateien abspielen kann. Hierzu haben wir einen kleinen 0,5W Lautsprecher benutzt. Um MP3 Dateien ohne Erweiterungsmodul abspielen zu können, muss diese in dekodierter Form in den Arduino Code geschrieben werden. Das heißt, im Code steht in Zahlenwerten wie lange und wie stark Strom durch den Elektromagneten des Lautsprechers fließen soll. Somit wird ein Klang erzeugt. Um dies auszuführen haben wir eine Libary eines anderen Nutzers genutzt. Die Dekodierung der MP3 Datei haben wir mit einem kleinen JavaScript gemacht, welches wir auf GitHub gefunden haben. Unser Test Sound war ein kurzes Geräusch einer Laserkanone.
 
 
 ### <a name="11"></a>Dienstag, 07. September 2021
-Heute haben wir am letzten Mittwoch angeknüpft und uns weiter mit der Libary zum Abspieln von Sounds befasst, bis wir das ganze zum Laufen gebracht haben. Im folgenden Findet sich der entsprechende Code.
+Heute haben wir am letzten Mittwoch angeknüpft und uns weiter mit der Libary zum Abspielen von Sounds befasst, bis wir das ganze zum Laufen gebracht haben. Im Folgenden findet sich der entsprechende Code.
 ```c
 #include <PCM.h>
     const unsigned char sample[] PROGMEM = {
@@ -191,7 +191,7 @@ void loop() {
 ```
   
 ### <a name="12"></a>Mittwoch, 08. September 2021
-Da das abspielen von Sounds nun funktionierte, haben wir uns heute das erste mal genauer mit Ideen über die Hardware unseres Projektes auseinander gesetzt.
+Da das Abspielen von Sounds nun funktionierte, haben wir uns heute das erste mal genauer mit Ideen über die Hardware unseres Projektes auseinander gesetzt.
   
   
 ### <a name="13"></a>Dienstag, 14. September 2021
@@ -200,14 +200,15 @@ Da das abspielen von Sounds nun funktionierte, haben wir uns heute das erste mal
   Entfall
   
 ### <a name="15"></a>Dienstag, 21. September 2021
-Heute haben wir nach einiger recherche nach Bauteilen aus Kostengründen besschlossen, die Bewegungsbahnen des Flugzeuges mittels Schubladen schienen zu realisieren. Linearkugellager wären natürlich die bessere Option, aber dafür auch die  teurere. Das Flugzeug wird sich also auf zwri senkrecht zueinander stehenden Schienen auf einem Schlitten bewegt. Eine weitere Frage die offen blieb war, ob wir normale Gleichstrommotoren für die Achsenbewegung verwenden, oder Schrittmotoren. Mit Schrittmotoren wäre es möglich, dass der Arduino zu jedem Zeitpunkt genau weiß, wo, in einem vorher definierten Koordinatensystem, sich das Flugzeug befindet. Den Gleichen Effekt könnte man jedoch auch mit normalen Motor erlangen, wenn man parrallel zu den Achsenschienen einen Linearwiderstand anbringen würde. Der sogenannte Schleifer würde dann an den Schlitten auf der Schiene montiert werden. Diese Frage haben wir zunächst offen gelassen.
-Entschieden haben wir uns aber in der Frage nach der Kraftübertragung vom Motor an den Schlitten. Wir haben uns auch hier für die günstigste Variante entschieden. An dem Motor wird ein Zahnrad montiert, welches in eine Zahnstange parrallel zur Schien greift. Ander Möglichkeiten wären noch die Kraftübertragung per Riemen oder Gewindestange, wie es bei 3D-Druckern üblich ist. 
+Heute haben wir nach einiger Recherche nach Bauteilen aus Kostengründen beschlossen, die Bewegungsbahnen des Flugzeuges mittels Schubladen schienen zu realisieren. Linearkugellager wären natürlich die bessere Option, aber dafür auch die  teurere. Das Flugzeug wird sich also auf zwei senkrecht zueinanderstehenden Schienen auf einem Schlitten bewegt. Eine weitere Frage die offen blieb war, ob wir normale Gleichstrommotoren für die Achsenbewegung verwenden, oder Schrittmotoren. Mit Schrittmotoren wäre es möglich, dass der Arduino zu jedem Zeitpunkt genau weiß, wo, in einem vorher definierten Koordinatensystem, sich das Flugzeug befindet. Den Gleichen Effekt könnte man jedoch auch mit normalen Motoren erlangen, wenn man parallel zu den Achsenschienen einen Linearwiderstand anbringen würde. Der sogenannte Schleifer würde dann an den Schlitten auf der Schiene montiert werden. Diese Frage haben wir zunächst offengelassen.
+Entschieden haben wir uns aber in der Frage nach der Kraftübertragung vom Motor an den Schlitten. Wir haben uns auch hier für die günstigste Variante entschieden. An dem Motor wird ein Zahnrad montiert, welches in eine Zahnstange parallel zur Schien greift. Ander Möglichkeiten wären noch die Kraftübertragung per Riemen oder Gewindestange, wie es bei 3D-Druckern üblich ist. 
  
 ### <a name="16"></a>Mittwoch, 22. September 2021 
-Heute haben wir uns auf einen Motortyp festgelegt. Wir haben uns gegen die Schrittmotoren entschieden, da wir es nicht für nötig halten, dass die Position des Flugzeuges zu jedem Zeitpunkt genau bestimmbar ist. Wir werden normale Motoren verwenden und dann an das Ende jeder Schiene einen Taster montiren, so dass der Schlitten nicht aus der Schiene heraus fahren kann. 
+Heute haben wir uns auf einen Motortyp festgelegt. Wir haben uns gegen die Schrittmotoren entschieden, da wir es nicht für nötig halten, dass die Position des Flugzeuges zu jedem Zeitpunkt genau bestimmbar ist. Wir werden normale Motoren verwenden und dann an das Ende jeder Schiene einen Taster montieren, so dass der Schlitten nicht aus der Schiene herausfahren kann. 
   
 ### <a name="17"></a>Dienstag, 28. September 2021
-Heute haben wir uns damit befasst, wie man einen Motor nicht mechanisch sondern elektonisch umpolen kann. Dies wird mit vier elektrischen Halbleitern, also Transistoren oder MOSFET´S realisier. Mit disen wird eine sogenannte H-Bridge Schaltung aufgebaut (Siehe Bild). Bei dieser werden zwei der Transistoren durchgeschaltet (S1 und S4) um so einen Stromfluss durch den Motor zu ermöglichen. Wenn die anderen zwei Transistoren (S2 und S3) durchgeschaltet werden, fließt der Strom in die andere Richtung, ergo der Motor dreht sich in die andere Richtung. So ist die Bewegung nach links und rechts und ober und unten möglich. Eine solche Schaltung haben wir heute begonnen aufzubauen.
+Heute haben wir uns damit befasst, wie man einen Motor nicht mechanisch, sondern elektronisch umpolen kann. Dies wird mit vier elektrischen Halbleitern, also Transistoren oder MOSFET´S realisier. Mit diesen wird eine sogenannte H-Bridge Schaltung aufgebaut (Siehe Bild). Bei dieser werden zwei der Transistoren durchgeschaltet (S1 und S4) um so einen Stromfluss durch den Motor zu ermöglichen. Wenn die anderen zwei Transistoren (S2 und S3) durchgeschaltet werden, fließt der Strom in die andere Richtung, ergo der Motor dreht sich in die andere Richtung. So ist die Bewegung nach links und rechts und ober und unten möglich. Eine solche Schaltung haben wir heute begonnen aufzubauen.
+
 ![310px-H_bridge svg](https://user-images.githubusercontent.com/88385986/144763248-f9dd9373-5276-48ae-a490-cbb7d415482a.png)
 
 
