@@ -220,6 +220,7 @@ Heute ist uns bei weiterer Teilerecherche aufgefallen, dass es bereits fertige M
   
 ### <a name="20"></a>Mittwoch, 20. Oktober 2021
 Da wir nun ale Wesentlichen Hardwarefragen geklärt hatten haben wir begonnen Code zu entwickeln.
+
 ### <a name="21"></a>Dienstag, 26. Oktober 2021
 Nach der Heutigen Stunde war unser Code auf diesem Stand und bereits in der Lage mit einem Joystick zwei Motoren ind jeweils beide Richtungen zu drehen.
 ```c
@@ -306,9 +307,10 @@ Heute haben wir uns weiter über die Hardware gedanken gemacht und einige Zeichn
 Entfall
   
 ### <a name="26"></a>Mittwoch, 10. November 2021
-Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight) für unser Projekt angelegt und uns einen vernünftigen Aufbau für diese überlegt. Außerdem haben wir den Code umgeschrieben, damit er übersichtlicher und leichter nachvollziehbar ist. Zusätzlich haben wir einen den Code dubliziert und mit weitgehenden erklärungen versehen. Beide Versionen des Codes sind auf der Projektseite zu finden.
+Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight) für unser Projekt angelegt und uns einen vernünftigen Aufbau für diese überlegt.
 
 ### <a name="27"></a>Dienstag, 16. November 2021
+Heute haben wir an der Projektseite weitergearbeitet. Wir haben den Code umgeschrieben, damit er übersichtlicher und leichter nachvollziehbar ist. Zusätzlich haben wir einen den Code dubliziert und mit weitgehenden erklärungen versehen. Beide Versionen des Codes sind auf der Projektseite zu finden.
 
 ### <a name="28"></a>Mittwoch, 17. November 2021
 
