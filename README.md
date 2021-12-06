@@ -104,7 +104,7 @@ void loop() {
 ```
 
 ### <a name="7"></a>Dienstag, 24. August 2021
-Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. die Analogsignale der beiden Achsenpotentiometer auslesen und auf bestimmten Pins ein entsprechende Analogsiganl ausgeben. Hierzu mussten wir zunächst mittels eines Multimeters und dessen Kontaktprüfungs Funktion ermitteln welche Pins des Sub-D Steckers zu welchen Kabeln im inneren gehören. Außerdem müssen wir eine zusätliche Leitung anbringen, da die zwei Achsenpotentiometer im Joystick nicht als Spannungsteiler, also mit allen 3 Kontakten, sondern nur mit 2 Kontakten als variablen Widerstand genutzt wurden. Das neue Kabel ist also der Ground für beide Potentiometer. Das neue Kabel wird mittels aufgekrimpter Flachstecker an die Potentiometer angeschlossen. Mit den genannten Arbeitsschritten sind wir in der heutigen Unterrichtseinheit leider nicht fertig geworden.
+Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. die Analogsignale der beiden Achsenpotentiometer auslesen und auf bestimmten Pins ein entsprechende Analogsiganl ausgeben. Hierzu mussten wir zunächst mittels eines Multimeters und dessen Kontaktprüfungsfunktion ermitteln welche Pins des Sub-D Steckers zu welchen Kabeln im inneren gehören. Außerdem müssen wir eine zusätzliche Leitung anbringen, da die zwei Achsenpotentiometer im Joystick nicht als Spannungsteiler, also mit allen 3 Kontakten, sondern nur mit 2 Kontakten als variablen Widerstand genutzt wurden. Das neue Kabel ist also der Ground für beide Potentiometer. Das neue Kabel wird mittels aufgekrimpter Flachstecker an die Potentiometer angeschlossen. Mit den genannten Arbeitsschritten sind wir in der heutigen Unterrichtseinheit leider nicht fertig geworden.
 
 
 
@@ -114,7 +114,7 @@ Heute haben wir die am Vortag genannten Arbeitsschritte beendigt. Die Verkabelun
 ![Screenshot 2021-12-05 175220](https://user-images.githubusercontent.com/88385986/144758447-55c91426-aac9-4c53-9be6-37864bfed54b.png)
 
 ### <a name="9"></a>Dienstag, 31. August 2021
-Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reparatur des selbigen befasst. Hierzu wurde der Taster ausgebaut und die Kontaktflächen gereinigt. Außerdem musste das Kontaktfähnchen etwas nachgebogen werden. Danach hat der Taster wieder einwandfrei funktioniert. Weiterführend haben wir angefangen einen kurzen Testcode für den Arduino zu schreiben mit welchem wir den Laserpointer mittels Knopfdruck des Joysticks aktivieren können. Die Laserdiode haben wir bereits zu Hause ausgebaut, jedoch mussten noch zwei Kabel an diese gelötet werden, um diese mit dem Steckbrett verwenden zu können. 
+Da uns in der letzten Stunde bereits aufgefallen ist, dass der Abzug des Joysticks nicht mehr funktionstüchtig ist, haben wir uns heute mit der Reparatur des selbigen befasst. Hierzu wurde der Taster ausgebaut und die Kontaktflächen gereinigt. Außerdem musste das Kontaktfähnchen etwas nachgebogen werden. Danach hat der Taster wieder einwandfrei funktioniert. Weiterführend haben wir angefangen einen kurzen Testcode für den Arduino zu schreiben mit welchem wir den Laserpointer mittels Knopfdruck am Joysticks aktivieren können. Die Laserdiode haben wir bereits zu Hause ausgebaut, jedoch mussten noch zwei Kabel an diese gelötet werden, um diese mit dem Steckbrett verwenden zu können. 
 
 ```c
 const int TriggerPin = 2;     // Der Digital Pin 2 des Arduinos bekommt den Namen "TriggerPin"
@@ -148,7 +148,7 @@ void loop() {
 
 
 ### <a name="10"></a>Mittwoch, 01. September 2021
-Nach dem nun der Abzug des Joysticks benutzbar ist haben wir uns damit auseinander gesetzt, wie man mit einem Arduino Sounddateien abspielen kann. Hierzu haben wir einen kleinen 0,5W Lautsprecher benutzt. Um MP3 Dateien ohne Erweiterungsmodul abspielen zu können, muss diese in dekodierter Form in den Arduino Code geschrieben werden. Das heißt, im Code steht in Zahlenwerten wie lange und wie stark Strom durch den Elektromagneten des Lautsprechers fließen soll. Somit wird ein Klang erzeugt. Um dies auszuführen haben wir eine Libary eines anderen Nutzers genutzt. Die Dekodierung der MP3 Datei haben wir mit einem kleinen JavaScript gemacht, welches wir auf GitHub gefunden haben. Unser Test Sound war ein kurzes Geräusch einer Laserkanone.
+Nach dem nun der Abzug des Joysticks benutzbar ist haben wir uns damit auseinandergesetzt, wie man mit einem Arduino Sounddateien abspielen kann. Hierzu haben wir einen kleinen 0,5W Lautsprecher benutzt. Um MP3 Dateien ohne Erweiterungsmodul abspielen zu können, muss diese in dekodierter Form in den Arduino Code geschrieben werden. Das heißt, im Code steht in Zahlenwerten wie lange und wie stark Strom durch den Elektromagneten des Lautsprechers fließen soll. Somit wird ein Klang erzeugt. Um dies auszuführen haben wir eine Libary eines anderen Nutzers genutzt. Die Dekodierung der MP3 Datei haben wir mit einem kleinen JavaScript gemacht, welches wir auf GitHub gefunden haben. Unser Testsound war ein kurzes Geräusch einer Laserkanone.
 
 
 ### <a name="11"></a>Dienstag, 07. September 2021
@@ -191,7 +191,7 @@ void loop() {
 ```
   
 ### <a name="12"></a>Mittwoch, 08. September 2021
-Da das Abspielen von Sounds nun funktionierte, haben wir uns heute das erste mal genauer mit Ideen über die Hardware unseres Projektes auseinander gesetzt.
+Da das Abspielen von Sounds nun funktionierte, haben wir uns heute das erste Mal genauer mit Ideen über die Hardware unseres Projektes auseinander gesetzt.
   
   
 ### <a name="13"></a>Dienstag, 14. September 2021
@@ -207,7 +207,7 @@ Entschieden haben wir uns aber in der Frage nach der Kraftübertragung vom Motor
 Heute haben wir uns auf einen Motortyp festgelegt. Wir haben uns gegen die Schrittmotoren entschieden, da wir es nicht für nötig halten, dass die Position des Flugzeuges zu jedem Zeitpunkt genau bestimmbar ist. Wir werden normale Motoren verwenden und dann an das Ende jeder Schiene einen Taster montieren, so dass der Schlitten nicht aus der Schiene herausfahren kann. 
   
 ### <a name="17"></a>Dienstag, 28. September 2021
-Heute haben wir uns damit befasst, wie man einen Motor nicht mechanisch, sondern elektronisch umpolen kann. Dies wird mit vier elektrischen Halbleitern, also Transistoren oder MOSFET´S realisier. Mit diesen wird eine sogenannte H-Bridge Schaltung aufgebaut (Siehe Bild). Bei dieser werden zwei der Transistoren durchgeschaltet (S1 und S4) um so einen Stromfluss durch den Motor zu ermöglichen. Wenn die anderen zwei Transistoren (S2 und S3) durchgeschaltet werden, fließt der Strom in die andere Richtung, ergo der Motor dreht sich in die andere Richtung. So ist die Bewegung nach links und rechts und ober und unten möglich. Eine solche Schaltung haben wir heute begonnen aufzubauen.
+Heute haben wir uns damit befasst, wie man einen Motor nicht mechanisch, sondern elektronisch umpolen kann. Dies wird mit vier elektrischen Halbleitern, also Transistoren oder MOSFET´S realisier. Mit diesen wird eine sogenannte H-Bridge Schaltung aufgebaut (Siehe Bild). Bei dieser werden zwei der Transistoren durchgeschaltet (S1 und S4) um so einen Stromfluss durch den Motor zu ermöglichen. Wenn die anderen zwei Transistoren (S2 und S3) durchgeschaltet werden, fließt der Strom in die andere Richtung, ergo der Motor dreht sich in die andere Richtung. So ist die Bewegung nach links, rechts, oben und unten möglich. Eine solche Schaltung haben wir heute begonnen aufzubauen.
 
 ![310px-H_bridge svg](https://user-images.githubusercontent.com/88385986/144763248-f9dd9373-5276-48ae-a490-cbb7d415482a.png)
 
@@ -219,7 +219,7 @@ Entfall
 Heute ist uns bei weiterer Teilerecherche aufgefallen, dass es bereits fertige Motorentreiber-Platinen für einen schmalen Taler zu kaufen gibt. Diese funktionieren ebenfalls auf dem Prinzip einer H-Bridge Schaltung haben aber einige Vorteile, z.B. in der Einfachheit und in ihrem Volumen.
 
 ### <a name="20"></a>Mittwoch, 20. Oktober 2021
-Da wir nun alle Wesentlichen Hardwarefragen geklärt hatten haben wir begonnen Code zu entwickeln.
+Da wir nun alle wesentlichen Hardwarefragen geklärt hatten haben wir begonnen Code zu entwickeln.
 
 ### <a name="21"></a>Dienstag, 26. Oktober 2021
 Nach der Heutigen Stunde war unser Code auf diesem Stand und bereits in der Lage mit einem Joystick zwei Motoren jeweils in beide Richtungen zu drehen.
@@ -234,7 +234,7 @@ const int analogOutPin11 = 11;
 const int OutPinX10 = 10;
 const int OutPinX6 = 6; 
 
-//Variablen für zwischenspeicher
+//Variablen für zwischenspeicherung
 int sensorValueY = 0;
 int sensorValueX = 0;  
 int outputValueY = 0;   
