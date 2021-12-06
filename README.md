@@ -320,8 +320,10 @@ Heute haben wir an der Projektseite weitergearbeitet. Wir haben den Code umgesch
 
 ### <a name="31"></a>Dienstag, 30. November 2021
 Heute haben wir die mechanische Steuerung des Flugzeuges getestet und dabei aufgetretene Fehler behoben. Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Diese sind Notwendig, damit die Schlitten nicht aus den Schienen heraus fahren kann. Wenn der Schlitten also an das Ende der Schiene, bzw. an das Ende der Zahnstange fährt, betätigt dieser einen Taster. Durch die Betätigung des Tasters wird ein Weiterdrehen des Motors in diese Richtung verhindert. Der erste Lösungsansatz war rein elektronisch mittels Dioden. Einen Schaltplan für dieses Konzept mit einem der Motoren findet sich unten. Letzendlich halten wir eine Softwarelösung jedoch für einfacher. Außerdem heißt das Unterrichtsfach Informatik und nicht Elektrotechnik.
-![image](https://user-images.githubusercontent.com/88386307/144904068-8c332e9d-e88f-467a-8d05-1efd01582796.png)
 ![IMG_E0421](https://user-images.githubusercontent.com/88385986/144922827-138b3d8b-6bf9-475e-a3fe-f01a23893016.JPG)
+
+![image](https://user-images.githubusercontent.com/88386307/144904068-8c332e9d-e88f-467a-8d05-1efd01582796.png)
+
 
 
 
