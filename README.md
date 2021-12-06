@@ -324,7 +324,7 @@ Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht
 ![IMG_E0422](https://user-images.githubusercontent.com/88385986/144924757-13aa42dc-548c-4ca4-a34a-37f9e23314c2.JPG)
 
 ### <a name="31"></a>Dienstag, 30. November 2021
-Heute haben wir die mechanische Steuerung des Flugzeuges getestet und dabei aufgetretene Fehler behoben. In der letzten Stunde hatten wir beschlossen, die das Flugzeug per Software an den Rändern anzuhalten, deshalb haben wir heute die dafür nötigen Lötarbeiten erledigt und alles verkabelt. Die Software dafür kommt nächste Stunde.
+Heute haben wir die mechanische Steuerung des Flugzeuges getestet und dabei aufgetretene Fehler behoben. In der letzten Stunde hatten wir beschlossen, die das Flugzeug per Software an den Rändern anzuhalten, deshalb haben wir heute die dafür nötigen Lötarbeiten erledigt und alles, wie in der Abbildung verkabelt. Die Software dafür kommt nächste Stunde.
 
 ![image](https://user-images.githubusercontent.com/88386307/144904068-8c332e9d-e88f-467a-8d05-1efd01582796.png)
 
