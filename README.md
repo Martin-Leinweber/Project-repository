@@ -319,15 +319,35 @@ Heute haben wir ausgehend von der letzten Stunde mit der überarbeitung des Code
 ### <a name="29"></a>Dienstag, 23. November 2021
 
 ### <a name="30"></a>Mittwoch, 24. November 2021
+Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Diese sind Notwendig, damit die Schlitten nicht aus den Schienen heraus fahren kann. Wenn der Schlitten also an das Ende der Schiene, bzw. an das Ende der Zahnstange fährt, betätigt dieser einen Taster. Durch die Betätigung des Tasters wird ein Weiterdrehen des Motors in diese Richtung verhindert. Der erste Lösungsansatz war rein elektronisch mittels Dioden. Einen Schaltplan für dieses Konzept mit einem der Motoren findet sich unten. Letzendlich halten wir eine Softwarelösung jedoch für einfacher. Außerdem heißt das Unterrichtsfach Informatik und nicht Elektrotechnik.
+
+![IMG_E0422](https://user-images.githubusercontent.com/88385986/144924757-13aa42dc-548c-4ca4-a34a-37f9e23314c2.JPG)
 
 ### <a name="31"></a>Dienstag, 30. November 2021
-Heute haben wir die mechanische Steuerung des Flugzeuges getestet und dabei aufgetretene Fehler behoben. Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Diese sind Notwendig, damit die Schlitten nicht aus den Schienen heraus fahren kann. Wenn der Schlitten also an das Ende der Schiene, bzw. an das Ende der Zahnstange fährt, betätigt dieser einen Taster. Durch die Betätigung des Tasters wird ein Weiterdrehen des Motors in diese Richtung verhindert. Der erste Lösungsansatz war rein elektronisch mittels Dioden. Einen Schaltplan für dieses Konzept mit einem der Motoren findet sich unten. Letzendlich halten wir eine Softwarelösung jedoch für einfacher. Außerdem heißt das Unterrichtsfach Informatik und nicht Elektrotechnik.
-![IMG_E0422](https://user-images.githubusercontent.com/88385986/144924757-13aa42dc-548c-4ca4-a34a-37f9e23314c2.JPG)
+Heute haben wir die mechanische Steuerung des Flugzeuges getestet und dabei aufgetretene Fehler behoben. In der letzten Stunde hatten wir beschlossen, die das Flugzeug per Software an den Rändern anzuhalten, deshalb haben wir heute die dafür nötigen Lötarbeiten erledigt und alles verkabelt. Die Software dafür kommt nächste Stunde.
 
 ![image](https://user-images.githubusercontent.com/88386307/144904068-8c332e9d-e88f-467a-8d05-1efd01582796.png)
 
-
-
-
 ### <a name="32"></a>Mittwoch, 01. Dezember 2021
-Heute haben wir den Code so verändert, dass das Flugzeug, wenn es einen Taster betätigt, nicht mehr weiter in die Richtung des Tasters bewegen kann. Genaueres Zum Code kann auf der Projektseite nachgelesen werden.
+Heute haben wir den Code so erweitert, dass das Flugzeug, wenn es einen Taster betätigt, nicht mehr weiter in die Richtung des Tasters bewegen kann. Dazu haben wir die if-clauses um eine zusätzliche bedingung erweitert, nähmlich dass der Taster in der Bewegungsrichtung nicht betätigt wird.
+
+```c
+    //X-movement
+    sensorValueX = analogRead(joystickXInputPin);
+
+    if (sensorValueX > (joystickXCenterValue + joystickXCenterTollerance) && buttonLeftState == LOW) {
+        outputValueX = map(sensorValueX, joystickXCenterValue + joystickXCenterTollerance, joystickXMaxValue, 0, 255); 
+        analogWrite(negXpwmPin, 0);
+        analogWrite(posXpwmPin, outputValueX);
+    }
+    else if (sensorValueX < (joystickXCenterValue - joystickXCenterTollerance) && buttonRightState == LOW) {
+        outputValueX = map(sensorValueX, joystickXCenterValue - joystickXCenterTollerance, joystickYMinValue, 0, 255);
+        analogWrite(posXpwmPin, 0);
+        analogWrite(negXpwmPin, outputValueX);
+    }
+    else{
+        outputValueX = 0;
+        analogWrite(posXpwmPin, outputValueX);
+        analogWrite(negXpwmPin, outputValueX);
+    }
+```
