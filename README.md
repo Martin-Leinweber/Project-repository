@@ -319,7 +319,7 @@ Heute haben wir an der Projektseite weitergearbeitet. Wir haben den Code umgesch
 ### <a name="30"></a>Mittwoch, 24. November 2021
 
 ### <a name="31"></a>Dienstag, 30. November 2021
-Heute haben wir die mechanische Steuerung des flugzeuges getestet und dabei aufgetretene Fehler behoben. Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Eine Überlegung war es, (Diodenlösung). Stattdessen halten wir eine Softwarelösung für deutlich besser und simpler.
+Heute haben wir die mechanische Steuerung des Flugzeuges getestet und dabei aufgetretene Fehler behoben. Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Eine Überlegung war es, (Diodenlösung). Stattdessen halten wir eine Softwarelösung für deutlich besser und simpler.
 
 ![image](https://user-images.githubusercontent.com/88386307/144904068-8c332e9d-e88f-467a-8d05-1efd01582796.png)
 
