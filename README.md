@@ -213,17 +213,16 @@ Heute haben wir uns damit befasst, wie man einen Motor nicht mechanisch, sondern
 
 
 ### <a name="18"></a>Mittwoch, 29. September 2021
-  Entfall
+Entfall
   
 ### <a name="19"></a>Dienstag, 19. Oktober 2021
-Heute ist uns bei weiterer Teilerecherche aufgefallen, dass es bereits fertige Motorentreiber-Platinen für einen schmalen Taler zu kaufen gibt. Diese funtionierne ebenfalls auf dem Prinzip einer H-Bridge Schaltung haben aber einige Vorteile, z.B. in der Einfachheit und in ihrem Volumen.
- 
-  
+Heute ist uns bei weiterer Teilerecherche aufgefallen, dass es bereits fertige Motorentreiber-Platinen für einen schmalen Taler zu kaufen gibt. Diese funktionieren ebenfalls auf dem Prinzip einer H-Bridge Schaltung haben aber einige Vorteile, z.B. in der Einfachheit und in ihrem Volumen.
+
 ### <a name="20"></a>Mittwoch, 20. Oktober 2021
-Da wir nun ale Wesentlichen Hardwarefragen geklärt hatten haben wir begonnen Code zu entwickeln.
+Da wir nun alle Wesentlichen Hardwarefragen geklärt hatten haben wir begonnen Code zu entwickeln.
 
 ### <a name="21"></a>Dienstag, 26. Oktober 2021
-Nach der Heutigen Stunde war unser Code auf diesem Stand und bereits in der Lage mit einem Joystick zwei Motoren ind jeweils beide Richtungen zu drehen.
+Nach der Heutigen Stunde war unser Code auf diesem Stand und bereits in der Lage mit einem Joystick zwei Motoren jeweils in beide Richtungen zu drehen.
 ```c
 //Input Pin für die Achsen des Joysticks
 const int analogInPinX = A1;
@@ -299,10 +298,10 @@ else if (sensorValueY > 510 && sensorValueY < 535){
 ### <a name="22"></a>Mittwoch, 27. Oktober 2021
   
 ### <a name="23"></a>Dienstag, 02. November 2021
-Auch wenn das Abspielen des Sounds funktioniert hat mussten wir feststellen, dass wir eine andere Lösung für das Abspieln von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurück setzt. Dieser Befehl ist für die Ausführung der Libary  welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Altenativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspieln können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu höhren sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
+Auch wenn das Abspielen des Sounds funktioniert hat, mussten wir feststellen, dass wir eine andere Lösung für das Abspielen von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurücksetzt. Dieser Befehl ist für die Ausführung der Libary  welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist, kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Alternativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspielen können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu hören sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
   
 ### <a name="24"></a>Mittwoch, 03. November 2021
-Heute haben wir uns weiter über die Hardware gedanken gemacht und einige Zeichnungen angefertigt. Auf Grundlage dieser haben wir außerhalb der Schule begonnen in der CAD-Software "Fusion 360" die Hardware im Deteil zu entwickeln. An diesem Modell wurde zu Hause immer wieder zwischendurch weiter gearbeitet. Das fertige Modell befindet sich auf unserer Projektseite. Das Modell Zeigt jedoch nicht den ganzen Spieleautomaten, sondern nur die mechanische Steuerung des Spielerflugzeuges. Außerdem fehlen in dem Modell Teile wie Schrauben und auch Klebeverbindungen sind nicht extra markiert.
+Heute haben wir uns weiter über die Hardware Gedanken gemacht und einige Zeichnungen angefertigt. Auf Grundlage dieser haben wir außerhalb der Schule begonnen in der CAD-Software "Fusion 360" die Hardware im Detail zu entwickeln. An diesem Modell wurde zu Hause immer wieder zwischendurch weitergearbeitet. Das fertige Modell befindet sich auf unserer Projektseite. Das Modell zeigt jedoch nicht den ganzen Spieleautomaten, sondern nur die mechanische Steuerung des Spielerflugzeuges. Außerdem fehlen in dem Modell Teile wie Schrauben und auch Klebeverbindungen sind nicht extra markiert.
   
 ### <a name="25"></a>Dienstag, 09. November 2021
 Entfall
@@ -311,7 +310,7 @@ Entfall
 Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight) für unser Projekt angelegt und uns einen vernünftigen Aufbau für diese überlegt.
 
 ### <a name="27"></a>Dienstag, 16. November 2021
-Heute haben wir an der Projektseite weitergearbeitet. Wir haben den Code umgeschrieben, damit er übersichtlicher und leichter nachvollziehbar ist. Zusätzlich haben wir einen den Code dubliziert und mit weitgehenden erklärungen versehen. Beide Versionen des Codes sind auf der Projektseite zu finden.
+Heute haben wir an der Projektseite weitergearbeitet. Wir haben den Code umgeschrieben, damit er übersichtlicher und leichter nachvollziehbar ist. Zusätzlich haben wir einen den Code dupliziert und mit weitgehenden Erklärungen versehen. Beide Versionen des Codes sind auf der Projektseite zu finden.
 
 ### <a name="28"></a>Mittwoch, 17. November 2021
 
@@ -326,4 +325,4 @@ Heute haben wir die mechanische Steuerung des flugzeuges getestet und dabei aufg
 
 
 ### <a name="32"></a>Mittwoch, 01. Dezember 2021
-Heute haben wir den Code so verändert, dass das Flugzeug, wenn es einen Taster betätigt nicht mehr weiter in die Richtung des Tasters bewegen kann. Genaueres Zum Code kann auf der Projektseite nachgelesen werden.
+Heute haben wir den Code so verändert, dass das Flugzeug, wenn es einen Taster betätigt, nicht mehr weiter in die Richtung des Tasters bewegen kann. Genaueres Zum Code kann auf der Projektseite nachgelesen werden.
