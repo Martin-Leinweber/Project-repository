@@ -298,7 +298,7 @@ else if (sensorValueY > 510 && sensorValueY < 535){
 Auch wenn das Abspielen des Sounds funktioniert hat mussten wir feststellen, dass wir eine andere Lösung für das Abspieln von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurück setzt. Dieser Befehl ist für die Ausführung der Libary  welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Altenativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspieln können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu höhren sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
   
 ### <a name="24"></a>Mittwoch, 03. November 2021
-Heute haben wir uns weiter über die Hardware gedanken gemacht und einige Zeichnungen angefertigt. Auf Grundlage dieser haben wir außerhalb der Schule begonnen in der CAD-Software "Fusion 360" die Hardware im Deteil zu entwickeln. An diesem Modell wurde zu Hause immer wieder zwischendurch weiter gearbeitet. Das fertige Modell befindet sich auf unserer Projektseite. Das Modell Zeigt jedoch nicht den ganzen Spieleautomaten, sondern nur die mechanische steuerung des Spielerflugzeuges. Außerdem fehlen in dem Modell Teile wie Schrauben und auch Klebeverbindungen sind nicht extra markiert.
+Heute haben wir uns weiter über die Hardware gedanken gemacht und einige Zeichnungen angefertigt. Auf Grundlage dieser haben wir außerhalb der Schule begonnen in der CAD-Software "Fusion 360" die Hardware im Deteil zu entwickeln. An diesem Modell wurde zu Hause immer wieder zwischendurch weiter gearbeitet. Das fertige Modell befindet sich auf unserer Projektseite. Das Modell Zeigt jedoch nicht den ganzen Spieleautomaten, sondern nur die mechanische Steuerung des Spielerflugzeuges. Außerdem fehlen in dem Modell Teile wie Schrauben und auch Klebeverbindungen sind nicht extra markiert.
   
 ### <a name="25"></a>Dienstag, 09. November 2021
 Entfall
@@ -315,7 +315,9 @@ Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight)
 ### <a name="30"></a>Mittwoch, 24. November 2021
 
 ### <a name="31"></a>Dienstag, 30. November 2021
-Heute haben wir das fertige Bewegungssystem des flugzeuges getestet und fehler behoben. Zudem haben wir uns gedanken über die Taster an den Rändern des Spiels gemacht und überlegt, wie wir diese im Code implementieren können.
+Heute haben wir die mechanische Steuerung des flugzeuges getestet und dabei aufgetretene Fehler behoben. Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Eine Überlegung war es, (Diodenlösung). Stattdessen haben wir die Schalter wie in der Grafik zu sehen ist angeschlossen und den Code so umgeschrieben, dass das Flugzeug, wenn es einen Taster betätigt nicht weiter in diese Richtung fahren kann. Genaueres Zum Code kann auf der Projektseite nachgelesen werden.
+![image](https://user-images.githubusercontent.com/88386307/144904068-8c332e9d-e88f-467a-8d05-1efd01582796.png)
+
 
 ### <a name="32"></a>Mittwoch, 01. Dezember 2021
 Heute haben wir den Code so verändert, dass das Flugzeug, wenn es einen Taster betätigt nicht mehr weiter in die Richtung des Tasters bewegen kann.
