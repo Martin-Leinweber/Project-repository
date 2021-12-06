@@ -314,6 +314,7 @@ Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight)
 Heute haben wir an der Projektseite weitergearbeitet. Wir haben den Code umgeschrieben, damit er übersichtlicher und leichter nachvollziehbar ist. Zusätzlich haben wir einen den Code dupliziert und mit weitgehenden Erklärungen versehen. Beide Versionen des Codes sind auf der Projektseite zu finden.
 
 ### <a name="28"></a>Mittwoch, 17. November 2021
+Heute haben wir ausgehend von der letzten Stunde mit der überarbeitung des Codes und dessen Erklärung weiter gemacht.
 
 ### <a name="29"></a>Dienstag, 23. November 2021
 
