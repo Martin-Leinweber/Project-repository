@@ -251,8 +251,8 @@ void loop() {
 
 
  if (sensorValueX > 540) {
-  outputValueX = map(sensorValueX, 540, 955, 0, 255);
-  analogWrite(OutPinX10, outputValueX);
+  outputValueX = map(sensorValueX, 540, 955, 0, 255); // Die Input Spannung wird in 1024 möglichen Werten aufgelöst. 255 ist der höchste Wert von 256 Stellen 
+  analogWrite(OutPinX10, outputValueX);                  (Null mitgerechnet). 255 ist also der Wert für 100% der Betriebsspannung.
  }
 
 else if (sensorValueX < 500) {
