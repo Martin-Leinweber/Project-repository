@@ -102,6 +102,9 @@ void loop() {
   delay(1);        
 }
 ```
+![Screenshot 2021-12-07 003701](https://user-images.githubusercontent.com/88385986/144939798-1db046c3-6d29-41af-8830-bf9579f74f63.png)
+
+
 
 ### <a name="7"></a>Dienstag, 24. August 2021
 Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. die Analogsignale der beiden Achsenpotentiometer auslesen und auf bestimmten Pins ein entsprechende Analogsiganl ausgeben. Hierzu mussten wir zunächst mittels eines Multimeters und dessen Kontaktprüfungsfunktion ermitteln welche Pins des Sub-D Steckers zu welchen Kabeln im inneren gehören. Außerdem müssen wir eine zusätzliche Leitung anbringen, da die zwei Achsenpotentiometer im Joystick nicht als Spannungsteiler, also mit allen 3 Kontakten, sondern nur mit 2 Kontakten als variablen Widerstand genutzt wurden. Das neue Kabel ist also der Ground für beide Potentiometer. Das neue Kabel wird mittels auf gekrimpter Flachstecker an die Potentiometer angeschlossen. Mit den genannten Arbeitsschritten sind wir in der heutigen Unterrichtseinheit leider nicht fertig geworden.
