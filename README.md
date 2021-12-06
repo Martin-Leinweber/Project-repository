@@ -66,12 +66,12 @@
 
 
 ### <a name="1"></a>Dienstag, 03. August 2021
-Heute, in der ersten Informatikstunde, wurden wir informiert was in Zukunft in diesem Fach auf uns zu kommen wird, und wie das ganze Ablaufen wird.
-Anschließend haben wir uns unsere Github Accounts eingerichtet und uns mit dieser Platform etwas vertraut gemacht. Zwischendurch haben wir uns schon einige Projektideen ausgedacht und diese besprochen.
+Heute, in der ersten Informatikstunde, wurden wir informiert was in Zukunft in diesem Fach auf uns zukommen wird, und wie das ganze Ablaufen wird.
+Anschließend haben wir uns unsere GitHub Accounts eingerichtet und uns mit dieser Plattform etwas vertraut gemacht. Zwischendurch haben wir uns schon einige Projektideen ausgedacht und diese besprochen.
 
 ### <a name="2"></a>Mittwoch, 04. August 2021
 
-Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funtionen von Markdown aus einander gesetzt. Wir haben dieses repository erstellt und mit den Blogeinträgen angefangen. Außerdem haben wir weiter über Projektideen gegrübelt.
+Wir haben an der letzten Stunde angeknüpft, und uns weiter mit den Funktionen von Markdown auseinandergesetzt. Wir haben dieses Repository erstellt und mit den Blogeinträgen angefangen. Außerdem haben wir weiter über Projektideen gegrübelt.
 
 ### <a name="3"></a>Dienstag, 10. August 2021
 Heute haben wir weiter über Projektideen nachgedacht und intensiv über deren Machbarkeit diskutiert.
@@ -80,10 +80,10 @@ Heute haben wir weiter über Projektideen nachgedacht und intensiv über deren M
 Heute haben wir uns auf eine Projektidee festgelegt. Unser Plan ist es einen Arcade-Spielekasten zu bauen, dessen Spielinhalt nicht auf einem Bildschirm, sondern mit echten Modellen dargestellt wird. Es soll in dem Spiel um einen Flugzeug Luftkampf, auf Englisch Dogfight genannt, gehen. Das verfolgende Flugzeug soll vom Spieler gesteuert werden und muss ein automatisch gesteuertes gegnerisches Flugzeug abschießen.
 
 ### <a name="5"></a>Dienstag, 17. August 2021
-Heute haben wir uns überlegt, wie man überprüfen kann, ob der Spieler das andere Flugzeug wirklich getroffen hat. Eine überlegung war es, die schienen auf denen sich die Flugzeuge bewegen mit Linearwiedertänden auszustatten, und auf die weise die positionen der Flugzeuge zu berechnen. Nach kurzer Recherche über die dafür benötigten Bauteile haben wir diese Idee wieder verworfen. Dann kamen wir auf die Idee, dass man an dem vervolgenden Flugzeug einen LASER befestigen könnte und am verfolgten Flugzeug einen Fotowiderstand. Wenn der LASER den Fotowiderstand trifft kann der Arduino  dies Messen.
+Heute haben wir uns überlegt, wie man überprüfen kann, ob der Spieler das andere Flugzeug wirklich getroffen hat. Eine Überlegung war es, die schienen auf denen sich die Flugzeuge bewegen mit Linearwidertänden auszustatten, und auf die weise die Positionen der Flugzeuge zu berechnen. Nach kurzer Recherche über die dafür benötigten Bauteile haben wir diese Idee wieder verworfen. Dann kamen wir auf die Idee, dass man an dem verfolgenden Flugzeug einen Laser befestigen könnte und am verfolgten Flugzeug einen Fotowiderstand. Wenn der Laser den Fotowiderstand trifft, kann der Arduino  dies Messen.
 
 ### <a name="6"></a>Mittwoch, 18. August 2021
-Heute haben wir getestet, ob unsere Idee zur Treffererkennung des gegnerischen Flugzeuges mittels eines Fotowiderstandes und eines Laserpointers funktionieren könnte. Also haben wir mit dem Fotowiderstand und einem weiteren Widerstand einen Spannungsteiler aufgebaut und getestet ob bei direkten Beleuchten mit einem Laserpointer der Spannungsunterschied zum normalen Tageslicht groß genug ist um ihn eindeutig auszulesen. Der Code sowie der Schaltkreis und ein Screenshot des Seriellen Monitors finden sich im Folgenden.
+Heute haben wir getestet, ob unsere Idee zur Treffererkennung des gegnerischen Flugzeuges mittels eines Fotowiderstandes und eines Laserpointers funktionieren könnte. Also haben wir mit dem Fotowiderstand und einem weiteren Widerstand einen Spannungsteiler aufgebaut und getestet ob bei direktem Beleuchten mit einem Laserpointer der Spannungsunterschied zum normalen Tageslicht groß genug ist, um ihn eindeutig auszulesen. Der Code sowie der Schaltkreis und ein Screenshot des Seriellen Monitors finden sich im Folgenden.
 
 ![Screenshot 2021-12-05 174717](https://user-images.githubusercontent.com/88385986/144761199-aa851cea-45b3-4096-9701-6276cc0a39f1.png)
 ```c
