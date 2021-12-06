@@ -104,7 +104,7 @@ void loop() {
 ```
 
 ### <a name="7"></a>Dienstag, 24. August 2021
-Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. die Analogsignale der beiden Achsenpotentiometer auslesen und auf bestimmten Pins ein entsprechende Analogsiganl ausgeben. Hierzu mussten wir zunächst mittels eines Multimeters und dessen Kontaktprüfungsfunktion ermitteln welche Pins des Sub-D Steckers zu welchen Kabeln im inneren gehören. Außerdem müssen wir eine zusätzliche Leitung anbringen, da die zwei Achsenpotentiometer im Joystick nicht als Spannungsteiler, also mit allen 3 Kontakten, sondern nur mit 2 Kontakten als variablen Widerstand genutzt wurden. Das neue Kabel ist also der Ground für beide Potentiometer. Das neue Kabel wird mittels aufgekrimpter Flachstecker an die Potentiometer angeschlossen. Mit den genannten Arbeitsschritten sind wir in der heutigen Unterrichtseinheit leider nicht fertig geworden.
+Am heutigen Tage haben wir als erstes etwas mit dem Großen Logitech Joystick beschäftigt. D.h. die Analogsignale der beiden Achsenpotentiometer auslesen und auf bestimmten Pins ein entsprechende Analogsiganl ausgeben. Hierzu mussten wir zunächst mittels eines Multimeters und dessen Kontaktprüfungsfunktion ermitteln welche Pins des Sub-D Steckers zu welchen Kabeln im inneren gehören. Außerdem müssen wir eine zusätzliche Leitung anbringen, da die zwei Achsenpotentiometer im Joystick nicht als Spannungsteiler, also mit allen 3 Kontakten, sondern nur mit 2 Kontakten als variablen Widerstand genutzt wurden. Das neue Kabel ist also der Ground für beide Potentiometer. Das neue Kabel wird mittels auf gekrimpter Flachstecker an die Potentiometer angeschlossen. Mit den genannten Arbeitsschritten sind wir in der heutigen Unterrichtseinheit leider nicht fertig geworden.
 
 
 
@@ -296,7 +296,7 @@ else if (sensorValueY > 510 && sensorValueY < 535){
 ```
   
 ### <a name="22"></a>Mittwoch, 27. Oktober 2021
-Heute haben wir uns mit der Kalibrierung des Codes für den großen Logitech Joystick beschäftigt. Problem ist, dass selbst wenn man den Joystick bis an den Anschlag einer Achse drückt, die Potentiometer nicht an den Anschlag gedreht werden. Voller mechanischer Ausschlag des Joysticks heißt also nicht voller elektrischer Ausschlag. Darum sind die Inputwerte im obigen Code nicht die theoretischen Vollausschläge 0 und 1023, sondern z.B. 210 und 955. Hierzu haben wir den elektischen Input-Wert im Seriellen Monitor bei mechanischem Vollauschlag aller Achsen aufgeschrieben und mit etwas tolleranz in den Code übernommen.
+Heute haben wir uns mit der Kalibrierung des Codes für den großen Logitech Joystick beschäftigt. Problem ist, dass selbst wenn man den Joystick bis an den Anschlag einer Achse drückt, die Potentiometer nicht an den Anschlag gedreht werden. Voller mechanischer Ausschlag des Joysticks heißt also nicht voller elektrischer Ausschlag. Darum sind die Inputwerte im obigen Code nicht die theoretischen Vollausschläge 0 und 1023, sondern z.B. 210 und 955. Hierzu haben wir den elektrischen Input-Wert im Seriellen Monitor bei mechanischem Vollauschlag aller Achsen aufgeschrieben und mit etwas Tolleranz in den Code übernommen.
   
 ### <a name="23"></a>Dienstag, 02. November 2021
 Als wir heute den Code zum Abspielen von MP3 Dateien (siehe 07. September) in unseren Steuerungscode einbetten wollten, mussten wir feststellen, dass wir eine andere Lösung für das Abspielen von Geräuschen brauchten. 1. Problem war, dass der Befehl "sizeof" alle gespeicherten Werte für Variablen zurücksetzt. Dieser Befehl ist für die Ausführung der Libary welche wir nutzen unerlässlich. In Kombination mit dem Code, welcher für die Steuerung der Achsen zuständig ist, kann die Steuerung nicht mehr funktionieren. Das 2. Problem war, dass dieser Kurze Sound bereits einen erheblichen Teil des Programmspeichers ein nimmt. Also haben wir uns nach Alternativen umgesehen. Und in der Tat sind wir online auf mehrere Erweiteungs-Shields gestoßen, welche Sounddateien von eine SD-Karte abspielen können. Hiermit soll in Zukunft also beim Betätigen des Abzuges des Joysticks ein Schussgeräusch zu hören sein und während des Gesamten Spielen ein Motorengeräusch der Flugzeuge.
@@ -314,13 +314,13 @@ Heute haben wir die [Projektseite](https://github.com/Bnlng/Mechanical-Dogfight)
 Heute haben wir an der Projektseite weitergearbeitet. Wir haben den Code umgeschrieben, damit er übersichtlicher und leichter nachvollziehbar ist. Zusätzlich haben wir einen den Code dupliziert und mit weitgehenden Erklärungen versehen. Beide Versionen des Codes sind auf der Projektseite zu finden.
 
 ### <a name="28"></a>Mittwoch, 17. November 2021
-Heute haben wir ausgehend von der letzten Stunde mit der überarbeitung des Codes und dessen Erklärung weiter gemacht.
+Heute haben wir ausgehend von der letzten Stunde mit der Überarbeitung des Codes und dessen Erklärung weiter gemacht.
 
 ### <a name="29"></a>Dienstag, 23. November 2021
-Heute haben wir digital den finalen Schaltplan erstellt und außerdem an der Projektseite weiter gearbeitet.
+Heute haben wir digital den finalen Schaltplan erstellt und außerdem an der Projektseite weitergearbeitet.
 
 ### <a name="30"></a>Mittwoch, 24. November 2021
-Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Diese sind Notwendig, damit die Schlitten nicht aus den Schienen heraus fahren kann. Wenn der Schlitten also an das Ende der Schiene, bzw. an das Ende der Zahnstange fährt, betätigt dieser einen Taster. Durch die Betätigung des Tasters wird ein Weiterdrehen des Motors in diese Richtung verhindert. Der erste Lösungsansatz war rein elektronisch mittels Dioden. Einen Schaltplan für dieses Konzept mit einem der Motoren findet sich unten. Letzendlich halten wir eine Softwarelösung jedoch für einfacher. Außerdem heißt das Unterrichtsfach Informatik und nicht Elektrotechnik.
+Zudem haben wir uns Gedanken über die Taster an den Rändern des Spiels gemacht. Diese sind notwendig, damit die Schlitten nicht aus den Schienen heraus fahren kann. Wenn der Schlitten also an das Ende der Schiene, bzw. an das Ende der Zahnstange fährt, betätigt dieser einen Taster. Durch die Betätigung des Tasters wird ein Weiterdrehen des Motors in diese Richtung verhindert. Der erste Lösungsansatz war rein elektronisch mittels Dioden. Einen Schaltplan für dieses Konzept mit einem der Motoren findet sich unten. Letzendlich halten wir eine Softwarelösung jedoch für einfacher. Außerdem heißt das Unterrichtsfach Informatik und nicht Elektrotechnik.
 
 ![IMG_E0422](https://user-images.githubusercontent.com/88385986/144924757-13aa42dc-548c-4ca4-a34a-37f9e23314c2.JPG)
 
